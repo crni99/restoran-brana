@@ -1,13 +1,14 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagramSquare, faFacebook, faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
+import { faInstagramSquare, faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faHome, faPhone, faClock } from '@fortawesome/free-solid-svg-icons';
 
 export default function ContactPage() {
+
     return (
         <>
-            <div className="container d-flex justify-content-center align-items-center" style={{ minHeight: "100vh" }}>
-                <div className="row w-100">
+            <div className="container d-flex justify-content-center align-items-center" style={{ minHeight: "100dvh" }} data-aos="fade-left" data-aos-duration="2000">
+                <div className="row w-100 row-wrapper">
                     <div className="col-4">
                         <h3 className="text-uppercase fw-bold mb-4">Adresa i radno vreme</h3>
                         <p className="mt-5">
@@ -27,35 +28,36 @@ export default function ContactPage() {
                             style={{ border: 0 }}
                             allowFullScreen=""
                             loading="lazy"
-                            referrerPolicy="no-referrer-when-downgrade">
+                            referrerPolicy="no-referrer-when-downgrade"
+                            title='Google Map'>
                         </iframe>
                     </div>
                 </div>
             </div>
 
-            <div className="container d-flex justify-content-center align-items-center" style={{ minHeight: "100vh" }}>
-                <div className="row w-100">
-                    <div class="col-4">
-                        <h3 className='text-uppercase fw-bold mb-4'>Informacija i rezervacije</h3>
+            <div className="container d-flex justify-content-center align-items-center" style={{ minHeight: "100dvh" }} data-aos="fade-right" data-aos-duration="2000">
+                <div className="row w-100 row-wrapper">
+                    <div className="col-4">
+                        <h3 className='text-uppercase fw-bold mb-4'>Informacije i rezervacije</h3>
                         <p className="mt-5">
                             <a href="tel:+381658679000" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faPhone} size="lg" className="mx-2 custom-icon" title="Phone" />
                                 Pozovite nas +381 65 867 9000
                             </a>
                         </p>
-                        <p className="mt-3">
+                        <p className="mt-4">
                             <a href="mailto:example@example.com" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faEnvelope} size="lg" className="mx-2 custom-icon" title="Email" />
                                 Imate pitanje? Pišite nam.
                             </a>
                         </p>
-                        <p className="mt-3">
+                        <p className="mt-4">
                             <a href="https://www.instagram.com/restoran.brana.ljig/" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faInstagramSquare} size="lg" className="mx-2 custom-icon" title="Email" />
                                 Zapratite nas na Instagramu.
                             </a>
                         </p>
-                        <p className="mt-3">
+                        <p className="mt-4">
                             <a href="https://www.facebook.com/RestoranBrana/" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faFacebookSquare} size="lg" className="mx-2 custom-icon" title="Email" />
                                 Pogledajte Facebook stranicu.
