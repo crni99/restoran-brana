@@ -1,3 +1,11 @@
+:root {
+  --white: #f0f0f0;
+  --black: #0f0f0f;
+  --red: #950606;
+  --dark-red: #3F1717;
+  --orange: #fb4405;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -12,79 +20,115 @@ code {
     monospace;
 }
 
-.custom-icon {
-  color: #e0e0e0;
-  transition: color 0.3s ease;
+/* Body */
+body {
+  background-color: var(--white);  /* White background for the body */
+  color: var(--black);  /* Black text color */
 }
 
-.custom-icon:hover {
-  color: #d63384;
+/* Navbar */
+.navbar {
+  background-color: var(--dark-red); /* Keep dark red background */
+  border-bottom: 1px solid var(--red);
 }
 
-.custom-icon:active,
-.custom-icon:focus {
-  color: #c52e76;
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: var(--white) !important;  /* White text for navbar links */
 }
 
-.contact-page-container {
-  display: flex;
-  height: 100dvh;
+.navbar .nav-link:hover,
+.navbar .nav-item.active .nav-link {
+  color: var(--orange) !important; /* Orange hover effect */
 }
 
-.contact-text {
-  flex: 1;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #f8f9fa;
+/* Buttons */
+.btn-primary {
+  background-color: var(--red);  /* Red button background */
+  border-color: var(--red);
 }
 
-.contact-text h1 {
-  margin-bottom: 20px;
-  font-size: 2rem;
-  color: #333;
+.btn-primary:hover {
+  background-color: var(--dark-red);
+  border-color: var(--dark-red);
 }
 
-.contact-text p {
-  margin-bottom: 10px;
-  font-size: 1rem;
-  color: #666;
+.btn-secondary {
+  background-color: var(--orange);  /* Orange secondary button */
+  border-color: var(--orange);
 }
 
-.contact-image {
-  flex: 2;
-  overflow: hidden;
+.btn-secondary:hover {
+  background-color: var(--red);
+  border-color: var(--red);
 }
 
-.contact-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
+/* Card */
+.card {
+  background-color: var(--white); /* White background for cards */
+  border: 1px solid var(--dark-red);  /* Dark red border */
 }
 
-.google-reviews {
-  text-align: center;
-  padding: 30px;
-  background-color: #f7f7f7;
-  border-radius: 8px;
-  margin-top: 40px;
+.card-header {
+  background-color: var(--dark-red); /* Dark red background for card header */
+  color: var(--white);  /* White text in card header */
 }
 
-.google-reviews a {
-  color: #007bff;
-  text-decoration: none;
+.card-body {
+  color: var(--black);  /* Black text color inside card body */
 }
 
-.google-reviews a:hover {
-  text-decoration: underline;
+/* Links */
+a {
+  color: var(--orange);  /* Orange link color */
 }
 
-.google-reviews-widget iframe {
-  border: 0;
-  width: 100%;
-  max-width: 600px;
-  height: 400px;
-  border-radius: 8px;
-  margin-top: 20px;
+a:hover,
+a:focus {
+  color: var(--red);  /* Red hover effect on links */
+}
+
+/* Footer */
+footer {
+  background-color: var(--dark-red); /* Keep dark red background for footer */
+  color: var(--white); /* White text in footer */
+}
+
+footer a {
+  color: var(--orange); /* Orange footer link color */
+}
+
+footer a:hover {
+  color: var(--red);  /* Red hover effect on footer links */
+}
+
+/* Form Elements */
+input, select, textarea {
+  background-color: var(--white);  /* White background for inputs */
+  color: var(--black);  /* Black text inside inputs */
+  border: 1px solid var(--dark-red);  /* Dark red border for inputs */
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--red);  /* Red border on focus */
+  box-shadow: 0 0 0 0.2rem rgba(149, 6, 6, 0.25);  /* Red shadow on focus */
+}
+
+/* Navbar Toggler Icon */
+.navbar-toggler-icon {
+  background-color: var(--white); /* White navbar toggler icon */
+}
+
+/* Custom Scrollbars (Optional) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--dark-red); /* Dark red scrollbar thumb */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--red); /* Red scrollbar thumb hover */
 }

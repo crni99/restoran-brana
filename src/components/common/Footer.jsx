@@ -7,9 +7,9 @@ export default function Footer() {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+        <footer className="text-center text-lg-start bg-body-tertiary text-muted">
             <div className="container footer-text d-flex justify-content-between align-items-center p-4">
-                <span>{currentYear} &copy; Ognjen's Courses | Powered by Ognjen</span>
+                <span>{currentYear} &copy; Restoran Brana</span>
                 <div>
                     <a href="https://github.com/crni99" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithub} size="lg" className="mx-2 custom-icon" title="GitHub" />

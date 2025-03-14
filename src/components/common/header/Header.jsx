@@ -7,33 +7,36 @@ export default function Header() {
         <header>
             <nav className="navbar navbar-expand-lg shadow-sm mb-3">
                 <div className="container">
-                    <a class="navbar-brand" href="#">
-                        <img src={logo} width="30" height="30" class="d-inline-block align-top" alt="" />
+                    <Link to="/" className="navbar-brand">
+                        <img src={logo} width="30" height="30" className="d-inline-block align-top" alt="Logo" />
                         &nbsp;Restoran Brana
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    </Link>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav ms-auto">
+                            <li className="nav-item">
                                 <Link to="/menu" className="nav-link"> Meni </Link>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <Link to="/our-story" className="nav-link"> Naša Priča </Link>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <li className="nav-item">
+                                <Link to="/playroom" className="nav-link"> Igraonica </Link>
+                            </li>
+                            <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Društvene Mreže
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="https://www.instagram.com/restoran.brana.ljig/" target="_blank" rel="noopener noreferrer">Instagram</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="https://www.facebook.com/RestoranBrana" target="_blank" rel="noopener noreferrer">Facebook</a>
+                                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a className="dropdown-item" href="https://www.instagram.com/restoran.brana.ljig/" target="_blank" rel="noopener noreferrer"> Instagram </a>
+                                    <div className="dropdown-divider"></div>
+                                    <a className="dropdown-item" href="https://www.facebook.com/RestoranBrana" target="_blank" rel="noopener noreferrer"> Facebook </a>
                                 </div>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <Link to="/contact" className="nav-link"> Kontakt </Link>
                             </li>
                         </ul>

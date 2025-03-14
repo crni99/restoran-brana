@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
-import './App.css';
 import Header from './components/common/header/Header';
 import Footer from './components/common/Footer';
 import ContactPage from './pages/Contact';
+import MenuPage from './pages/Menu';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
           <div className="row">
             <div className="col-12">
               <Routes>
+                <Route path="/menu" element={<MenuPage />} />
                 <Route path="/contact" element={<ContactPage />} />
               </Routes>
             </div>

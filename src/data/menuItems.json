@@ -1,0 +1,110 @@
+{
+    "breakfast": [
+        {
+            "title": "Kajgana, mini salata, tost sendvič",
+            "image": "/assets/images/breakfast/kajgana-salata-sendvic.jpg",
+            "description": "kajgana sa pilećim prsima, uz mini salatu, toplim sendvičem sa pečenicom i wedge krompirom",
+            "price": "590,00"
+        },
+        {
+            "title": "Domaće punjene prženice",
+            "image": "/assets/images/breakfast/domace-punjene-przenice.jpg",
+            "description": "punjene gaudom i pilećim prsima, pomfrit i salata",
+            "price": "280,00/500,00"
+        },
+        {
+            "title": "Ovsena kaša sa bananom, prelivom od višnje i orašastim plodovima",
+            "image": "/assets/images/breakfast/ovsena-kasa.jpg",
+            "description": "",
+            "price": "330,00"
+        },
+        {
+            "title": "Dva jaja na oko, kobasice, prženice",
+            "image": "/assets/images/breakfast/jaja-kobasice-przenice.jpg",
+            "description": "",
+            "price": "480,00"
+        },
+        {
+            "title": "Klub sendvič",
+            "image": "/assets/images/breakfast/klub-sendvic.jpg",
+            "description": "Tost sendvič sa piletinom, slaninom, jajetom, paradajzom, ranch sosom, iceberg salatom i pomfritom",
+            "price": "490,00"
+        }
+    ],
+    "appetizer": [
+        {
+            "title": "Teleća Čorba",
+            "image": "/images/lunch1.jpg",
+            "description": "",
+            "price": "170,00/290,00"
+        },
+        {
+            "title": "Mocarela štapići sa ranch sosom",
+            "image": "/images/lunch2.jpg",
+            "description": "štapići 150/300g, ranch sos, pomfrit",
+            "price": "270,00/480,00"
+        },
+        {
+            "title": "Zapečeni pomfrit sa sirom čedar i slaninom",
+            "image": "/images/lunch3.jpg",
+            "description": "150/300g pomfrit, čedar sos, hrskavi luk, slaninica",
+            "price": "240,00/400,00"
+        },
+        {
+            "title": "Cezar salata sa piletinom",
+            "image": "/images/lunch3.jpg",
+            "description": "piletina 120g, iceberg salata 130g, sos 'a la Cesar', kurtoni, slanina, parmezan",
+            "price": "590,00"
+        },
+        {
+            "title": "Vitaminska salata sa dresingom iz kikirikija i susama",
+            "image": "/images/lunch3.jpg",
+            "description": "iceberg salata, crveni kupus, kukuruz šećerac, krastavac, paradajz, krutoni, susam, kikiriki sos",
+            "price": "390,00"
+        },
+        {
+            "title": "Grilovano povrće",
+            "image": "/images/lunch3.jpg",
+            "description": "",
+            "price": "450,00"
+        }
+    ],
+    "burgers": [
+        {
+            "title": "Beef Burger Regular",
+            "image": "/images/lunch1.jpg",
+            "description": "juneći kotlet 160g, burger sos, iceberg salata, paradajz, kiseli krastavci + pomfrit",
+            "price": "690,00"
+        },
+        {
+            "title": "Cheese Burger",
+            "image": "/images/lunch2.jpg",
+            "description": "juneći kotlet 160g, burger sos, iceberg salata, paradajz, kiseli krastavci, čedar sos + pomfrit",
+            "price": "720,00"
+        },
+        {
+            "title": "Smash Burger",
+            "image": "/images/lunch3.jpg",
+            "description": "juneći kotleti 2x160g, marmelada luk, burger sos, iceberg salata, čedar sos, hrskavi luk + pomfrit",
+            "price": "750,00"
+        },
+        {
+            "title": "Brana Burger",
+            "image": "/images/lunch3.jpg",
+            "description": "juneći kotlet 160g, marmelada, luk, burger sos, gauda, čedar sos, paradajz, kiseli krastavci, slanina + pomfrit",
+            "price": "790,00"
+        },
+        {
+            "title": "Tortilja Piletina",
+            "image": "/images/lunch3.jpg",
+            "description": "tortilja, piletina, hrskava slanina, gauda, iceberg salata, paradajz, cezar sos, BBQ sos + pomfrit",
+            "price": "490,00"
+        },
+        {
+            "title": "Tortilja Tuna",
+            "image": "/images/lunch3.jpg",
+            "description": "tortilja, tuna, iceberg salata, posni majonez, paradajz + pomfrit",
+            "price": "450,00"
+        }
+    ]
+}
