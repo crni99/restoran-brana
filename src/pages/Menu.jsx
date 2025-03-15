@@ -14,25 +14,32 @@ const MenuPage = () => {
     }, []);
 
     return (
-        <div className=".container-md mt-5 mb-5 ">
-            
-            <MenuSection
-                title="Doručak (servira se do 13:00)"
-                items={breakfastItems}
-                sectionId="Breakfast"
-            />
+        <div className="container-fluid">
 
-            <MenuSection
-                title="Predjelo"
-                items={appetizerItems}
-                sectionId="Appetizer"
-            />
+            <div className='d-flex justify-content-center align-items-center container-full-view w-100 mb-5' data-aos="fade-left" data-aos-duration="2000">
+                <MenuSection
+                    title="Doručak (servira se do 13:00)"
+                    items={breakfastItems}
+                    sectionId="Breakfast"
+                />
+            </div>
 
-            <MenuSection
-                title="Burgeri i Tortilje"
-                items={burgeriTortiljeItems}
-                sectionId="BurgeriTortilje"
-            />
+            <div className='d-flex justify-content-center align-items-center container-full-view w-100 mb-5' data-aos="fade-right" data-aos-duration="2000">
+                <MenuSection
+                    title="Predjelo"
+                    items={appetizerItems}
+                    sectionId="Appetizer"
+                />
+            </div>
+
+            <div className='d-flex justify-content-center align-items-center container-full-view w-100 mb-5' data-aos="fade-left" data-aos-duration="2000">
+                <MenuSection
+                    title="Burgeri i Tortilje"
+                    items={burgeriTortiljeItems}
+                    sectionId="BurgeriTortilje"
+                />
+            </div>
+
         </div>
     );
 };

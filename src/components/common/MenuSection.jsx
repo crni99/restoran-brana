@@ -2,9 +2,9 @@ import React from 'react';
 
 const MenuSection = ({ title, items, sectionId }) => {
     return (
-        <div className="menu-section">
+        <div className="menu-section w-100">
             <span>
-                <p className="fs-4 mt-5">{title}</p>
+                <p className="fs-4">{title}</p>
             </span>
             <div className="accordion" id={`accordion${sectionId}`}>
                 {items.map((item, index) => (
@@ -28,13 +28,13 @@ const MenuSection = ({ title, items, sectionId }) => {
                             data-bs-parent={`#accordion${sectionId}`}
                         >
                             <div className="accordion-body">
-                                <div className="card mb-3">
+                                <div className="card w-100"> {/* Ensure this also takes 100% width */}
                                     <img
                                         src={process.env.PUBLIC_URL + item.image}
                                         className="card-img-top rounded w-25 h-auto"
                                         alt={item.title}
                                     />
-                                    <div className="card-body">
+                                    <div className="card-body mt-3">
                                         <p className="card-text">{item.description}</p>
                                         <p className="card-text">
                                             <small className="text-muted">{item.price} RSD</small>

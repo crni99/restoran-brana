@@ -44,9 +44,10 @@ body::after {
 
 .row-wrapper {
   padding: 1rem;
-  background-color: var(--dark-red);
+  background-color: var(--white);
   border-radius: 1rem;
-  color: var(--white);
+  color: var(--black);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 code {
@@ -55,7 +56,7 @@ code {
 }
 
 a {
-  color: var(--white);
+  color: var(--bs-primary);
 }
 
 footer a {
@@ -65,8 +66,7 @@ footer a {
 a:hover,
 a:focus,
 a:active {
-  color: var(--bs-primary);
-  background-color: var(--white);
+  color: var(--dark-red);
 }
 
 footer a:hover,
@@ -108,6 +108,129 @@ footer a:active {
   background-color: var(--dark-red);
 }
 
+.container-full-view {
+  min-height: 90dvh;
+}
+
+.custom-icon {
+  color: var(--black);
+}
+
 .mt-4 {
   margin-top: 2rem !important;
+}
+
+.menu-section {
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-section p {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.accordion-item {
+  border: 1px solid var(--light-gray);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.accordion-button {
+  background-color: var(--white);
+  color: var(--black);
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--dark-red);
+  color: var(--white);
+}
+
+.accordion-button:hover,
+.accordion-button:focus,
+.accordion-button:active {
+  background-color: var(--dark-red);
+  color: var(--white);
+}
+
+.accordion-body {
+  background-color: var(--light-gray);
+  padding: 1rem;
+  border-top: 1px solid var(--dark-red);
+}
+
+.card {
+  border: 1px solid var(--light-gray);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: var(--white);
+}
+
+.card-text {
+  font-size: 1rem;
+  color: var(--black);
+}
+
+.card-text small {
+  color: var(--dark-red);
+}
+
+@media (max-width: 768px) {
+  .accordion-button {
+    font-size: 0.9rem;
+  }
+
+  .card-img-top {
+    max-height: 150px;
+  }
+
+  .menu-section {
+    padding: 1rem;
+  }
+
+  .accordion-item {
+    margin-bottom: 1rem;
+  }
+
+  .card-body {
+    padding: 0.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .menu-section {
+    padding: 0.75rem;
+  }
+
+  .accordion-button {
+    font-size: 0.85rem;
+  }
+
+  .accordion-body {
+    padding: 0.75rem;
+  }
+
+  .card-img-top {
+    max-height: 120px;
+  }
+}
+
+.contact-image {
+  max-width: 50%;
+  object-fit: cover;
 }
