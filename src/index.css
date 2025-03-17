@@ -108,7 +108,7 @@ footer a:active {
   background-color: var(--dark-red);
 }
 
-.container-full-view {
+.min-vh-90 {
   min-height: 90dvh;
 }
 
@@ -118,6 +118,13 @@ footer a:active {
 
 .mt-4 {
   margin-top: 2rem !important;
+}
+
+.menu-title {
+  color: var(--dark-red);
+  font-weight: 500;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
 }
 
 .menu-section {
@@ -234,3 +241,99 @@ footer a:active {
   max-width: 50%;
   object-fit: cover;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 55px;
+  color: var(--dark-red);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: var(--dark-red);
+}
+
+.carousel-control-prev {
+  margin-left: -2rem !important;
+}
+
+.carousel-control-next {
+  margin-right: -2rem !important;
+}
+
+/* Extra Small (Mobile) */
+@media (max-width: 575.98px) {
+  .menu-image {
+    max-height: 350px !important;
+  }
+
+  .menu-text {
+    margin-top: 1rem !important;
+  }
+  .carousel-control-prev {
+    margin-left: -1rem !important;
+  }
+
+  .carousel-control-next {
+    margin-right: -1rem !important;
+  }
+  .min-vh-90 {
+    min-height: 100dvh;
+  }
+}
+
+/* Small Screens (≥576px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .menu-image {
+    max-height: 400px !important;
+  }
+
+  .menu-text {
+    margin-top: 2rem !important;
+  }
+  .carousel {
+    margin-bottom: 0rem !important;
+  }
+}
+
+/* Medium Screens (≥768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .carousel-control-prev {
+    margin-left: -2.5rem !important;
+  }
+
+  .carousel-control-next {
+    margin-right: -2.5rem !important;
+  }
+
+  .menu-image {
+    max-height: 350px !important;
+  }
+}
+
+/* Large Screens (≥992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .carousel-control-prev {
+    margin-left: -3rem !important;
+  }
+
+  .carousel-control-next {
+    margin-right: -3rem !important;
+  }
+}
+
+/* Extra Large Screens (≥1200px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/* Extra Extra Large Screens (≥1400px) */
+@media (min-width: 1400px) {}

@@ -28,7 +28,7 @@ const MenuSection = ({ title, items, sectionId }) => {
                             data-bs-parent={`#accordion${sectionId}`}
                         >
                             <div className="accordion-body">
-                                <div className="card w-100"> {/* Ensure this also takes 100% width */}
+                                <div className="card w-100">
                                     <img
                                         src={process.env.PUBLIC_URL + item.image}
                                         className="card-img-top rounded w-25 h-auto"
