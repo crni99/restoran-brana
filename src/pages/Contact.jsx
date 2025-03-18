@@ -7,7 +7,7 @@ export default function ContactPage() {
 
     return (
         <>
-            <div className="container d-flex justify-content-center align-items-center container-full-view" data-aos="fade-left" data-aos-duration="2000">
+            <div className="container d-flex justify-content-center align-items-center min-vh-90" data-aos="fade-left" data-aos-duration="2000">
                 <div className="row w-100 row-wrapper">
                     <div className="col-12 col-md-4">
                         <h3 className="text-uppercase fw-bold mb-4">Adresa i radno vreme</h3>
@@ -24,7 +24,8 @@ export default function ContactPage() {
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.8784362575907!2d20.223514395464324!3d44.211463708586045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4759e33490edc5e7%3A0x3b442e916ab64d37!2sKafe%20Restoran%20Brana!5e0!3m2!1ssr!2srs!4v1742051253397!5m2!1ssr!2srs"
                             width="100%"
-                            height="350"
+                            height="500"
+                            className='contact-map'
                             style={{ border: 0 }}
                             allowFullScreen=""
                             loading="lazy"
@@ -35,7 +36,7 @@ export default function ContactPage() {
                 </div>
             </div>
 
-            <div className="container d-flex justify-content-center align-items-center container-full-view" data-aos="fade-right" data-aos-duration="2000">
+            <div className="container d-flex justify-content-center align-items-center container-full-view min-vh-90" data-aos="fade-right" data-aos-duration="2000">
                 <div className="row w-100 row-wrapper">
                     <div className="col-12 col-md-4">
                         <h3 className='text-uppercase fw-bold mb-4'>Informacije i rezervacije</h3>
