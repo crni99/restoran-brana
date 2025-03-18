@@ -53,15 +53,21 @@ export default function ContactPage() {
                             </a>
                         </p>
                         <p className="mt-4">
-                            <a href="https://www.instagram.com/restoran.brana.ljig/" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faInstagramSquare} size="lg" className="mx-2 custom-icon" title="Instagram" />
-                                Zapratite nas na Instagramu.
-                            </a>
-                        </p>
-                        <p className="mt-4">
                             <a href="https://www.facebook.com/RestoranBrana/" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faFacebookSquare} size="lg" className="mx-2 custom-icon" title="Facebook" />
                                 Pogledajte Facebook stranicu.
+                            </a>
+                        </p>
+                        <p className="mt-4">
+                            <a href="https://www.instagram.com/restoran.brana.ljig/" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faInstagramSquare} size="lg" className="mx-2 custom-icon" title="Instagram" />
+                                Restoran Brana Instagram.
+                            </a>
+                        </p>
+                        <p className="mt-4">
+                            <a href="https://www.instagram.com/okean_igraonica/" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faInstagramSquare} size="lg" className="mx-2 custom-icon" title="Instagram" />
+                                Okean Igraonica Instagram.
                             </a>
                         </p>
                     </div>

@@ -5,6 +5,7 @@ import ContactPage from './pages/Contact';
 import MenuPage from './pages/Menu';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import PlayroomPage from './pages/Playroom';
 
 AOS.init();
 
@@ -18,6 +19,7 @@ function App() {
             <div className="col-12">
               <Routes>
                 <Route path="/menu" element={<MenuPage />} />
+                <Route path="/playroom" element={<PlayroomPage />} />
                 <Route path="/contact" element={<ContactPage />} />
               </Routes>
             </div>

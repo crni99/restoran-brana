@@ -35,7 +35,7 @@ export default function Header() {
                                 <Link to="/our-story" className="nav-link"> Naša Priča </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/playroom" className="nav-link"> Igraonica </Link>
+                                <Link to="/playroom" className="nav-link"> Okean Igraonica </Link>
                             </li>
                             <li className="nav-item dropdown">
                                 <a
