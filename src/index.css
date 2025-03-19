@@ -77,7 +77,8 @@ body::after {
   z-index: -1;
 }
 
-strong, b {
+strong,
+b {
   color: var(--dark-red);
 }
 
@@ -320,6 +321,18 @@ footer a:active {
     margin-left: 0rem;
   }
 
+  .zoom-in-move-down-hover:hover {
+    transform: none !important;
+  }
+
+  .zoom-in-move-left-hover {
+    transform: none !important;
+  }
+
+  .zoom-in-move-right-hover {
+    transform: none !important;
+  }
+
   .carousel-control-prev {
     margin-left: -1rem !important;
   }
@@ -380,6 +393,18 @@ footer a:active {
     margin-top: 2rem !important;
     margin-bottom: -1rem !important;
     margin-left: 0rem;
+  }
+
+  .zoom-in-move-down-hover:hover {
+    transform: none !important;
+  }
+
+  .zoom-in-move-left-hover {
+    transform: none !important;
+  }
+
+  .zoom-in-move-right-hover {
+    transform: none !important;
   }
 
   .carousel-control-prev {
@@ -445,6 +470,18 @@ footer a:active {
   .menu-text {
     margin-top: 2rem !important;
     margin-left: 0rem;
+  }
+
+  .zoom-in-move-down-hover:hover {
+    transform: none !important;
+  }
+
+  .zoom-in-move-left-hover {
+    transform: none !important;
+  }
+
+  .zoom-in-move-right-hover {
+    transform: none !important;
   }
 
   .carousel {
@@ -527,6 +564,18 @@ footer a:active {
     margin-left: -1.5rem;
   }
 
+  .zoom-in-move-down-hover:hover {
+    transform: none !important;
+  }
+
+  .zoom-in-move-left-hover {
+    transform: none !important;
+  }
+
+  .zoom-in-move-right-hover {
+    transform: none !important;
+  }
+
   .contact-image {
     max-width: 100% !important;
   }
@@ -566,9 +615,13 @@ footer a:active {
   .carousel-control-prev-icon:after {
     font-size: 3.5rem !important;
   }
-  
+
   .menu-text {
     margin-left: -2rem;
+  }
+
+  .zoom-in-move-down-hover:hover {
+    transform: none !important;
   }
 
   .row-direction {
@@ -597,6 +650,10 @@ footer a:active {
 
   .carousel-control-next {
     margin-right: -3rem !important;
+  }
+
+  .zoom-in-move-down-hover:hover {
+    transform: scale(1.1) translateY(20%) !important;
   }
 
   .playroom-text {
