@@ -12,7 +12,7 @@ const MenuPage = () => {
 
         const timer = setTimeout(() => {
             setShowAlert(false);
-        }, 6000);
+        }, 3000);
 
         return () => clearTimeout(timer);
     }, []);
@@ -26,7 +26,7 @@ const MenuPage = () => {
                     <div className="alert-center p-5">
                         <div className="alert row-wrapper" data-aos='zoom-in' data-aos-duration="1000">
                             <strong>Napomena:<br></br></strong>
-                            Cene na sajtu možda nisu usklađene sa aktuelnim cenama u restoranu.
+                            Jelovnik na sajtu možda nije usklađen sa aktuelnim jelovnikom u restoranu.
                         </div>
                     </div>
                 </>

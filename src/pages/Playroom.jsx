@@ -13,11 +13,11 @@ export default function PlayroomPage() {
 
             <div className="container d-flex justify-content-center align-items-center min-vh-90 mt-5" data-aos="fade-up" data-aos-duration="2000">
                 <div className="row row-wrapper row-direction">
-                    <div className="col-12 col-md-6 mt-3">
+                    <div className="col-12 col-md-6 mt-2">
                         <img src="/assets/images/playroom/Igraonica1.jpeg"
                             className="w-100 rounded mb-3 playroom-main-image" alt="Igraonica1" />
                     </div>
-                    <div className="col-12 col-md-6 playroom-text mt-3">
+                    <div className="col-12 col-md-6 playroom-text mt-2">
                         U restoranu <strong><i>Brana</i></strong> ne brinemo samo o vašem uživanju u ukusnoj hrani, već i o zabavi za najmlađe. Naša <strong><i>Okean Igraonica</i></strong>
                         &nbsp;je savršeno mesto za decu da se opuste, igraju, istražuju i uživaju u bezbednom okruženju, dok vi, roditelji, možete u
                         potpunosti uživati u obroku.
@@ -32,11 +32,11 @@ export default function PlayroomPage() {
                     </div>
                     <div className="col-12 col-md-6 mt-2">
                         <img src="/assets/images/playroom/Igraonica2.jpg"
-                            className="w-100 rounded mb-3 playroom-main-image" alt="Igraonica2" />
+                            className="w-100 rounded mb-2 playroom-main-image" alt="Igraonica2" />
                     </div>
                     <div className="col-12 col-md-6 mt-2">
                         <img src="/assets/images/playroom/Igraonica3.jpg"
-                            className="w-100 rounded mb-3 playroom-main-image" alt="Igraonica3" />
+                            className="w-100 rounded mb-2 playroom-main-image" alt="Igraonica3" />
                     </div>
                 </div>
             </div>

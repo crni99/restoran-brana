@@ -22,7 +22,7 @@ const MenuSection2 = ({ title, items, sectionId }) => {
                                                 alt={item.title}
                                             />
                                         </div>
-                                        <div className="col-12 col-md-4 menu-text">
+                                        <div className="col-12 col-md-4 menu-text zoom-in-move-down-hover">
                                             <h5>{item.title}</h5>
                                             <p className='fst-italic'>{item.description ? item.description : '\u00A0'}</p>
                                             <p>

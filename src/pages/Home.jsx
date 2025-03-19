@@ -6,8 +6,8 @@ export default function HomePage() {
     return (
         <>
             <VideoSection
-                title="Restoran Brana"
-                subTitle=""
+                title="BRANA"
+                subTitle="Kafe | Restoran | Igraonica"
                 videoSource="/assets/videos/BranaPromoVideo.mp4"
             />
 

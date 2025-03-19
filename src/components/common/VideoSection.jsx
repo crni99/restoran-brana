@@ -8,7 +8,7 @@ const VideoSection = ({ title, subTitle, videoSource }) => {
 
     return (
         <>
-            <div class="video-background-holder">
+            <div class="video-background-holder" data-aos='fade-down' data-aos-duration="1000">
                 <div class="video-background-overlay"></div>
                 <video
                     src={videoSource}
@@ -21,15 +21,13 @@ const VideoSection = ({ title, subTitle, videoSource }) => {
                 >
                     Vaš pretraživač ne podržava video oznaku.
                 </video>
-                <div class="video-background-content container h-100">
+                <div class="video-background-content container h-100" data-aos='zoom-in' data-aos-duration="2000">
                     <div class="d-flex h-100 text-center align-items-center">
                         <div class="w-100 text-white">
-                            <h1 class="display-4">
-                                <strong>
-                                    {title}
-                                </strong>
+                            <h1 class="display-4 video-title">
+                                {title}
                             </h1>
-                            <p class="lead mb-0">{subTitle}</p>
+                            <p class="lead mb-0 video-sub-title">{subTitle}</p>
                         </div>
                     </div>
                 </div>

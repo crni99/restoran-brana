@@ -25,14 +25,14 @@ export default function ContactPage() {
                             title='Google Map'>
                         </iframe>
                     </div>
-                    <div className="col-12 col-md-6">
-                        <p className="mt-3 text-center">
+                    <div className="col-12 col-md-6" data-aos="zoom-in" data-aos-duration="2000">
+                        <p className="mt-3 text-center zoom-in-hover">
                             <FontAwesomeIcon icon={faHome} size="xl" className="mx-2 custom-icon" title="Home" />
                             Ravnogorska BB, 14240, Ljig, Srbija
                         </p>
                     </div>
-                    <div className="col-12 col-md-6">
-                        <p className="mt-3 text-center">
+                    <div className="col-12 col-md-6" data-aos="zoom-in" data-aos-duration="2000">
+                        <p className="mt-3 text-center zoom-in-hover">
                             <FontAwesomeIcon icon={faClock} size="xl" className="mx-2 custom-icon" title="Time" />
                             08:00 - 23:00
                         </p>
@@ -42,49 +42,54 @@ export default function ContactPage() {
 
             <div className="container d-flex justify-content-center align-items-center container-full-view min-vh-90 mb-3" data-aos="fade-right" data-aos-duration="2000">
                 <div className="row w-100 row-wrapper">
-                    <div className="col-12 col-md-4">
+                    <div className="col-12 col-md-4 mt-3">
+
                         <h3 className='text-uppercase fw-bold mb-4'>Informacije i rezervacije</h3>
-                        <p className='text-secondary'>Restoran Brana</p>
-                        <p className="mt-2">
-                            <a href="tel:+381658679000" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faPhone} size="xl" className="mx-2 custom-icon" title="Phone" />
-                                Pozovite nas +381 65 867 9000
-                            </a>
-                        </p>
-                        <p className="mt-4">
-                            <a href="mailto:example@example.com" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faEnvelope} size="xl" className="mx-2 custom-icon" title="Email" />
-                                Imate pitanje? Pišite nam.
-                            </a>
-                        </p>
-                        <p className="mt-4">
-                            <a href="https://www.facebook.com/RestoranBrana/" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faFacebookSquare} size="xl" className="mx-2 custom-icon" title="Facebook" />
-                                Pogledajte Facebook stranicu.
-                            </a>
-                        </p>
-                        <p className="mt-4">
-                            <a href="https://www.instagram.com/restoran.brana.ljig/" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faInstagramSquare} size="xl" className="mx-2 custom-icon" title="Instagram" />
-                                Zapratite nas na Instagramu.
-                            </a>
-                        </p>
-                        <p className='text-secondary mt-5'>Okean Igraonica</p>
-                        <p className="mt-2">
-                            <a href="tel:+381643758641" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faPhone} size="xl" className="mx-2 custom-icon" title="Phone" />
-                                Pozovite nas +381 64 375 8641
-                            </a>
-                        </p>
-                        <p className="mt-4">
-                            <a href="https://www.instagram.com/okean_igraonica/" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faInstagramSquare} size="xl" className="mx-2 custom-icon" title="Instagram" />
-                                Zapratite nas na Instagramu.
-                            </a>
-                        </p>
+                        <div className='zoom-in-move-right-hover'>
+                            <p className='text-secondary'>Restoran Brana</p>
+                            <p className="mt-2">
+                                <a href="tel:+381658679000" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faPhone} size="xl" className="mx-2 custom-icon" title="Phone" />
+                                    Pozovite nas +381 65 867 9000
+                                </a>
+                            </p>
+                            <p className="mt-4">
+                                <a href="mailto:example@example.com" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faEnvelope} size="xl" className="mx-2 custom-icon" title="Email" />
+                                    Imate pitanje? Pišite nam.
+                                </a>
+                            </p>
+                            <p className="mt-4">
+                                <a href="https://www.facebook.com/RestoranBrana/" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faFacebookSquare} size="xl" className="mx-2 custom-icon" title="Facebook" />
+                                    Pogledajte Facebook stranicu.
+                                </a>
+                            </p>
+                            <p className="mt-4">
+                                <a href="https://www.instagram.com/restoran.brana.ljig/" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faInstagramSquare} size="xl" className="mx-2 custom-icon" title="Instagram" />
+                                    Zapratite nas na Instagramu.
+                                </a>
+                            </p>
+                        </div>
+                        <div className='zoom-in-move-right-hover'>
+                            <p className='text-secondary mt-5'>Okean Igraonica</p>
+                            <p className="mt-2">
+                                <a href="tel:+381643758641" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faPhone} size="xl" className="mx-2 custom-icon" title="Phone" />
+                                    Pozovite nas +381 64 375 8641
+                                </a>
+                            </p>
+                            <p className="mt-4">
+                                <a href="https://www.instagram.com/okean_igraonica/" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faInstagramSquare} size="xl" className="mx-2 custom-icon" title="Instagram" />
+                                    Zapratite nas na Instagramu.
+                                </a>
+                            </p>
+                        </div>
                     </div>
-                    <div className="col-12 col-md-8 d-flex justify-content-end">
-                        <img src="/assets/images/slikaUnutra.jpg" className="rounded w-100 w-md-75 h-auto contact-image" alt="Slika Unutra" />
+                    <div className="col-12 col-md-8 d-flex justify-content-end mt-3 zoom-in-move-left-hover">
+                        <img src="/assets/images/slikaUnutra.jpg" className="rounded w-100 w-md-75 h-auto contact-image mb-3" alt="Slika Unutra" />
                     </div>
                 </div>
             </div>
