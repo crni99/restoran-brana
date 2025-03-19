@@ -18,20 +18,21 @@ const MenuPage = () => {
     }, []);
 
     return (
-        <div className="container-fluid">
+        <div className="container container-fluid">
 
             {showAlert && (
                 <>
                     <div className="alert-overlay"></div>
-                    <div className="alert-center">
+                    <div className="alert-center p-5">
                         <div className="alert row-wrapper" data-aos='zoom-in' data-aos-duration="1000">
-                            <strong>Napomena:<br></br></strong> Cene na sajtu možda nisu usklađene sa aktuelnim cenama u restoranu.
+                            <strong>Napomena:<br></br></strong>
+                            Cene na sajtu možda nisu usklađene sa aktuelnim cenama u restoranu.
                         </div>
                     </div>
                 </>
             )}
 
-            <MainTitle title="Meni" />
+            <MainTitle title="Jelovnik" />
 
             <MenuSection2
                 title="Doručak (servira se do 13:00)"

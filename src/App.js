@@ -6,28 +6,24 @@ import MenuPage from './pages/Menu';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import PlayroomPage from './pages/Playroom';
+import HomePage from './pages/Home';
 
 AOS.init();
 
 function App() {
   return (
-    <>
-      <div className="page-container">
-        <Header />
-        <div className="container content">
-          <div className="row">
-            <div className="col-12">
-              <Routes>
-                <Route path="/menu" element={<MenuPage />} />
-                <Route path="/playroom" element={<PlayroomPage />} />
-                <Route path="/contact" element={<ContactPage />} />
-              </Routes>
-            </div>
-          </div>
-        </div>
-        <Footer />
+    <div className="page-container">
+      <Header />
+      <div className="content">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/menu" element={<MenuPage />} />
+          <Route path="/playroom" element={<PlayroomPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
       </div>
-    </>
+      <Footer />
+    </div>
   );
 }
 

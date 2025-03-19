@@ -1,27 +1,24 @@
 import React from 'react';
-import MainTitle from '../components/MainTitle';
+import VideoSection from '../components/common/VideoSection';
 
 export default function PlayroomPage() {
 
-    const handleRightClick = (e) => {
-        e.preventDefault();
-    };
-
     return (
         <>
-            <MainTitle title="Okean Igraonica" />
+            <VideoSection
+                title="Okean Igraonica"
+                subTitle="Mesto gde zabava ne prestaje!"
+                videoSource="/assets/videos/IgraonicaPromoVideo.mp4"
+            />
 
-            <div className="container d-flex justify-content-center align-items-center min-vh-90" data-aos="fade-up" data-aos-duration="2000">
+            <div className="container d-flex justify-content-center align-items-center min-vh-90 mt-5" data-aos="fade-up" data-aos-duration="2000">
                 <div className="row row-wrapper row-direction">
-                    <span>
-                        <p className="fs-4 menu-title text-center"><strong>Okean Igraonica</strong> - Mesto gde zabava ne prestaje!</p>
-                    </span>
-                    <div className="col-12 col-md-6">
+                    <div className="col-12 col-md-6 mt-3">
                         <img src="/assets/images/playroom/Igraonica1.jpeg"
                             className="w-100 rounded mb-3 playroom-main-image" alt="Igraonica1" />
                     </div>
-                    <div className="col-12 col-md-6 playroom-text">
-                        U restoranu "Brana" ne brinemo samo o vašem uživanju u ukusnoj hrani, već i o zabavi za najmlađe. Naša <strong><i>Okean Igraonica</i></strong>
+                    <div className="col-12 col-md-6 playroom-text mt-3">
+                        U restoranu <strong><i>Brana</i></strong> ne brinemo samo o vašem uživanju u ukusnoj hrani, već i o zabavi za najmlađe. Naša <strong><i>Okean Igraonica</i></strong>
                         &nbsp;je savršeno mesto za decu da se opuste, igraju, istražuju i uživaju u bezbednom okruženju, dok vi, roditelji, možete u
                         potpunosti uživati u obroku.
                         <br></br>
@@ -31,7 +28,7 @@ export default function PlayroomPage() {
                         mališani u rukama naših ljubaznih i obazrivih animatora.
                         <br></br>
                         <br></br>
-                        Dođite u <strong><i>Okean Igraonicu</i></strong> restorana "Brana" i stvorite nezaboravne trenutke za celu porodicu!
+                        Dođite u <strong><i>Okean Igraonicu</i></strong> restorana <strong><i>Brana</i></strong> i stvorite nezaboravne trenutke za celu porodicu!
                     </div>
                     <div className="col-12 col-md-6 mt-2">
                         <img src="/assets/images/playroom/Igraonica2.jpg"
@@ -40,24 +37,6 @@ export default function PlayroomPage() {
                     <div className="col-12 col-md-6 mt-2">
                         <img src="/assets/images/playroom/Igraonica3.jpg"
                             className="w-100 rounded mb-3 playroom-main-image" alt="Igraonica3" />
-                    </div>
-                </div>
-            </div>
-
-            <div className="container d-flex justify-content-center align-items-center min-vh-90 mt-5" data-aos="fade-up" data-aos-duration="2000">
-                <div className="row w-100">
-                    <div className="col-12">
-                        <video
-                            src="/assets/videos/IgraonicaPromoVideo.mp4"
-                            autoPlay
-                            loop
-                            muted
-                            playsInline
-                            className="w-100 rounded"
-                            onContextMenu={handleRightClick}
-                        >
-                            Vaš pretraživač ne podržava video oznaku.
-                        </video>
                     </div>
                 </div>
             </div>
