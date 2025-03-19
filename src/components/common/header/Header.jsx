@@ -25,7 +25,7 @@ export default function Header() {
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto">
-                        <li className="nav-item">
+                            <li className="nav-item">
                                 <Link to="/" className="nav-link"> Početna </Link>
                             </li>
                             <li className="nav-item">
@@ -36,38 +36,6 @@ export default function Header() {
                             </li>
                             <li className="nav-item">
                                 <Link to="/playroom" className="nav-link"> Okean Igraonica </Link>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <a
-                                    className="nav-link dropdown-toggle"
-                                    href="#"
-                                    id="navbarDropdown"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-haspopup="true"
-                                    aria-expanded="false"
-                                >
-                                    Društvene Mreže
-                                </a>
-                                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a
-                                        className="dropdown-item"
-                                        href="https://www.instagram.com/restoran.brana.ljig/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        Instagram
-                                    </a>
-                                    <div className="dropdown-divider"></div>
-                                    <a
-                                        className="dropdown-item"
-                                        href="https://www.facebook.com/RestoranBrana"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        Facebook
-                                    </a>
-                                </div>
                             </li>
                             <li className="nav-item">
                                 <Link to="/contact" className="nav-link"> Kontakt </Link>

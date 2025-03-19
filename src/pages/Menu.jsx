@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import menuItems from '../data/menuItems.json';
 import MenuSection2 from '../components/common/MenuSection2';
+import MainTitle from '../components/MainTitle';
 
 const MenuPage = () => {
     const [breakfastItems, setBreakfastItems] = useState([]);
@@ -29,6 +30,8 @@ const MenuPage = () => {
                     </div>
                 </>
             )}
+
+            <MainTitle title="Meni" />
 
             <MenuSection2
                 title="Doručak (servira se do 13:00)"

@@ -77,6 +77,14 @@ body::after {
   z-index: -1;
 }
 
+.main-title {
+  color: var(--dark-red);
+  border-color: var(--white);
+  background-color: var(--white);
+  position: absolute;
+  left: -9999px;
+}
+
 .row-wrapper {
   padding: 1rem;
   background-color: var(--white);
@@ -291,10 +299,12 @@ footer a:active {
   color: var(--dark-red);
 }
 
+/* Extra Extra Small (Old Mobile) */
 @media (max-width: 400px) {
   .menu-image {
     max-height: 200px !important;
   }
+
   .menu-text {
     margin-top: 2rem !important;
   }
@@ -324,7 +334,20 @@ footer a:active {
     margin: 0 auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    max-width: 100%;
+    max-width: 95%;
+  }
+
+  .playroom-text {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .col-md-6 {
+    width: 100%;
+  }
+
+  .playroom-text-bundle {
+    margin-bottom: 0rem !important;
   }
 }
 
@@ -367,7 +390,20 @@ footer a:active {
     margin: 0 auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    max-width: 100%;
+    max-width: 95%;
+  }
+
+  .playroom-text {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .col-md-6 {
+    width: 100%;
+  }
+
+  .playroom-text-bundle {
+    margin-bottom: 0rem !important;
   }
 }
 
@@ -406,10 +442,24 @@ footer a:active {
   }
 
   .contact-image {
+    max-width: 95% !important;
     margin: 0 auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
     max-width: 100%;
+  }
+
+  .playroom-text {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .col-md-6 {
+    width: 100%;
+  }
+
+  .playroom-text-bundle {
+    margin-bottom: 0rem !important;
   }
 }
 
@@ -434,6 +484,27 @@ footer a:active {
   .menu-image {
     max-height: 350px !important;
   }
+
+  .contact-image {
+    max-width: 100% !important;
+  }
+
+  .row-direction {
+    flex-direction: column !important;
+  }
+
+  .playroom-text {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .col-md-6 {
+    width: 100%;
+  }
+
+  .playroom-text-bundle {
+    margin-bottom: 0rem !important;
+  }
 }
 
 /* Large Screens (≥992px) */
@@ -453,6 +524,23 @@ footer a:active {
   .carousel-control-prev-icon:after {
     font-size: 3.5rem !important;
   }
+
+  .row-direction {
+    flex-direction: column !important;
+  }
+
+  .playroom-text {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .col-md-6 {
+    width: 100%;
+  }
+
+  .playroom-text-bundle {
+    margin-bottom: 0rem !important;
+  }
 }
 
 /* Extra Large Screens (≥1200px) */
@@ -464,13 +552,21 @@ footer a:active {
   .carousel-control-next {
     margin-right: -3rem !important;
   }
+
+  .playroom-text {
+    font-size: 1rem !important;
+  }
+
+  .playroom-text-bundle {
+    margin-bottom: 1rem !important;
+  }
 }
 
 /* Extra Extra Large Screens (≥1400px) */
 @media (min-width: 1400px) {}
 
-.playroom-image {
-  max-width: 66%;
+.playroom-bundle-image {
+  max-width: 75%;
   object-fit: contain;
   margin-top: 1rem;
   margin-bottom: 3rem;
@@ -486,5 +582,13 @@ footer a:active {
 }
 
 .carousel-playroom {
-  transform: translateX(17%) !important;
+  transform: translateX(12.5%) !important;
+}
+
+.playroom-main-image {
+  max-width: 100%;
+}
+
+.playroom-text {
+  font-size: 1.2rem;
 }

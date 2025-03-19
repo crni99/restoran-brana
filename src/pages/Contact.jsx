@@ -2,11 +2,14 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagramSquare, faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faHome, faPhone, faClock } from '@fortawesome/free-solid-svg-icons';
+import MainTitle from '../components/MainTitle';
 
 export default function ContactPage() {
 
     return (
         <>
+            <MainTitle title="Kontakt" />
+
             <div className="container d-flex justify-content-center align-items-center min-vh-90" data-aos="fade-left" data-aos-duration="2000">
                 <div className="row w-100 row-wrapper">
                     <div className="col-12 col-md-4">
@@ -36,11 +39,12 @@ export default function ContactPage() {
                 </div>
             </div>
 
-            <div className="container d-flex justify-content-center align-items-center container-full-view min-vh-90" data-aos="fade-right" data-aos-duration="2000">
+            <div className="container d-flex justify-content-center align-items-center container-full-view min-vh-90 mb-3" data-aos="fade-right" data-aos-duration="2000">
                 <div className="row w-100 row-wrapper">
                     <div className="col-12 col-md-4">
                         <h3 className='text-uppercase fw-bold mb-4'>Informacije i rezervacije</h3>
-                        <p className="mt-5">
+                        <p className='text-secondary'>Restoran Brana</p>
+                        <p className="mt-2">
                             <a href="tel:+381658679000" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faPhone} size="lg" className="mx-2 custom-icon" title="Phone" />
                                 Pozovite nas +381 65 867 9000
@@ -61,13 +65,20 @@ export default function ContactPage() {
                         <p className="mt-4">
                             <a href="https://www.instagram.com/restoran.brana.ljig/" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faInstagramSquare} size="lg" className="mx-2 custom-icon" title="Instagram" />
-                                Restoran Brana Instagram.
+                                Zapratite nas na Instagramu.
+                            </a>
+                        </p>
+                        <p className='text-secondary mt-5'>Okean Igraonica</p>
+                        <p className="mt-2">
+                            <a href="tel:+381643758641" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faPhone} size="lg" className="mx-2 custom-icon" title="Phone" />
+                                Pozovite nas +381 64 375 8641
                             </a>
                         </p>
                         <p className="mt-4">
                             <a href="https://www.instagram.com/okean_igraonica/" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faInstagramSquare} size="lg" className="mx-2 custom-icon" title="Instagram" />
-                                Okean Igraonica Instagram.
+                                Zapratite nas na Instagramu.
                             </a>
                         </p>
                     </div>
