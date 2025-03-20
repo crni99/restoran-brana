@@ -17,6 +17,16 @@ function App() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+
+    setTimeout(() => {
+      if (location.hash) {
+        const element = document.getElementById(location.hash.substring(1));
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    }, 100);
+
   }, [location]);
 
   return (
