@@ -10,7 +10,9 @@ export default function ContactPage() {
         <>
             <MainTitle title="Kontakt" />
 
-            <div className="container d-flex justify-content-center align-items-center min-vh-90" data-aos="fade-left" data-aos-duration="2000">
+            <div className="container d-flex justify-content-center align-items-center min-vh-90"
+                data-aos="fade-left" data-aos-duration="2000"
+                id='1'>
                 <div className="row w-100 row-wrapper">
                     <div className="col-12 col-md-12 mt-3">
                         <iframe
@@ -40,7 +42,9 @@ export default function ContactPage() {
                 </div>
             </div>
 
-            <div className="container d-flex justify-content-center align-items-center container-full-view min-vh-90 mb-3" data-aos="fade-right" data-aos-duration="2000">
+            <div className="container d-flex justify-content-center align-items-center container-full-view min-vh-90 mb-3"
+                data-aos="fade-right" data-aos-duration="2000"
+                id='2'>
                 <div className="row w-100 row-wrapper">
                     <div className="col-12 col-md-4 mt-3">
                         <h3 className='text-uppercase fw-bold mb-4'>Informacije i rezervacije</h3>

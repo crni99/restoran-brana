@@ -116,7 +116,7 @@ export default function HomePage() {
                             <img src='/logo512.avif'
                                 className='logo-rounded' alt='Brana Logo' />
                             <h2 className='mt-4 mb-5'>Rezervišite sto</h2>
-                            <Link to="/jelovnik" className="btn custom-button-inverted fw-bold p-3 text-decoration-none">
+                            <Link to="/kontakt#2" className="btn custom-button-inverted fw-bold p-3 text-decoration-none">
                                 REZERVIŠI
                             </Link>
                         </div>
