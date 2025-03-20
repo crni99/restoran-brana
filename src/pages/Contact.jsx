@@ -43,7 +43,6 @@ export default function ContactPage() {
             <div className="container d-flex justify-content-center align-items-center container-full-view min-vh-90 mb-3" data-aos="fade-right" data-aos-duration="2000">
                 <div className="row w-100 row-wrapper">
                     <div className="col-12 col-md-4 mt-3">
-
                         <h3 className='text-uppercase fw-bold mb-4'>Informacije i rezervacije</h3>
                         <div className='zoom-in-move-right-hover'>
                             <p className='text-secondary'>Restoran Brana</p>

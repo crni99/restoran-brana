@@ -1,4 +1,5 @@
-import { Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/common/header/Header';
 import Footer from './components/common/Footer';
 import ContactPage from './pages/Contact';
@@ -11,6 +12,13 @@ import HomePage from './pages/Home';
 AOS.init();
 
 function App() {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
     <div className="page-container">
       <Header />

@@ -11,7 +11,9 @@
   background-color: var(--dark-red);
 }
 
-.custom-button:hover {
+.custom-button:hover,
+.custom-button:active,
+.custom-button:focus {
   color: var(--dark-red);
   background-color: var(--white);
 }
@@ -21,7 +23,9 @@
   background-color: var(--white);
 }
 
-.custom-button-inverted:hover {
+.custom-button-inverted:hover,
+.custom-button-inverted:active,
+.custom-button-inverted:focus {
   color: var(--white);
   border: solid 0.1rem var(--white);
 }
@@ -108,6 +112,10 @@ b {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+.rounded {
+  border-radius: 1rem !important;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -175,7 +183,7 @@ footer a:active {
   color: var(--dark-red);
   font-weight: 500;
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .menu-text {
@@ -398,6 +406,10 @@ footer a:active {
   .home-text {
     margin-bottom: 0rem !important;
   }
+
+  .home-reserve-table-images {
+    transform: translateY(70%);
+  }
 }
 
 /* Extra Small (Mobile) */
@@ -489,6 +501,10 @@ footer a:active {
     margin: 0 auto;
     display: block;
   }
+
+  .home-reserve-table-images {
+    transform: translateY(60%);
+  }
 }
 
 /* Small Screens (≥576px) */
@@ -578,6 +594,10 @@ footer a:active {
     width: 85% !important;
     margin: 0 auto;
     display: block;
+  }
+
+  .home-reserve-table-images {
+    transform: translateY(40%);
   }
 }
 
@@ -815,7 +835,7 @@ footer a:active {
 }
 
 .zoom-in-hover {
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
 }
 
 .zoom-in-hover:hover {
@@ -823,7 +843,7 @@ footer a:active {
 }
 
 .zoom-in-move-right-hover {
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
 }
 
 .zoom-in-move-right-hover:hover {
@@ -831,7 +851,7 @@ footer a:active {
 }
 
 .zoom-in-move-left-hover {
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
 }
 
 .zoom-in-move-left-hover:hover {
@@ -839,7 +859,7 @@ footer a:active {
 }
 
 .zoom-in-move-down-hover {
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
 }
 
 .zoom-in-move-down-hover:hover {
@@ -847,7 +867,7 @@ footer a:active {
 }
 
 .full-width-image {
-  height: 450px;
+  height: 500px;
   overflow: hidden;
 }
 
@@ -860,4 +880,24 @@ footer a:active {
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay-2 {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.home-main-image {
+  margin-top: 1rem;
+  width: 95%;
+  padding-right: 0px !important;
+}
+
+.logo-rounded {
+  border-radius: 50%;
+  max-width: 33%;
+  ;
+}
+
+.home-reserve-table-images {
+  transform: translateY(35%);
 }

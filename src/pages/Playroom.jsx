@@ -30,22 +30,34 @@ export default function PlayroomPage() {
                         <br></br>
                         Dođite u <strong><i>Okean Igraonicu</i></strong> restorana <strong><i>Brana</i></strong> i stvorite nezaboravne trenutke za celu porodicu!
                     </div>
-                    <div className="col-12 col-md-6 mt-2">
-                        <img src="/assets/images/playroom/Igraonica2.jpg"
-                            className="w-100 rounded mb-2 playroom-main-image-2" alt="Igraonica2" />
-                    </div>
-                    <div className="col-12 col-md-6 mt-2">
-                        <img src="/assets/images/playroom/Igraonica3.jpg"
-                            className="w-100 rounded mb-2" alt="Igraonica3" />
+                </div>
+            </div>
+
+            <div className="justify-content-center align-items-center"
+                data-aos="fade-up" data-aos-duration="2000"
+            >
+                <div className="full-width-image position-relative"
+                >
+                    <img src="/assets/images/playroom/Igraonica2.jpg"
+                        className="w-50 h-100 object-fit-cover" alt="Igraonica1"
+                    />
+                    <img src="/assets/images/playroom/Igraonica3.jpg"
+                        className="w-50 h-100 object-fit-cover" alt="Igraonica2"
+                    />
+                    <div className="overlay-2 position-absolute top-0 start-0 w-100 h-100">
+                        <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
+                            <h2 className='mt-4 mb-5'>
+                                Organizujte nezaboravan rođendan u
+                                <br></br>
+                                <span className='fw-bold'>Okean Igraonici</span>
+                            </h2>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div className="container d-flex justify-content-center align-items-center min-vh-90 mt-5" data-aos="fade-up" data-aos-duration="2000">
                 <div className="row row-wrapper">
-                    <span>
-                        <p className="fs-4 menu-title text-center">Organizujte nezaboravan rođendan u <strong>Okean Igraonici</strong></p>
-                    </span>
                     <div className="col-12 col-md-12 playroom-text">
                         <p className='mt-2'>
                             U restoranu <strong><i>Brana</i></strong> vaša deca mogu da uživaju u najlepšim trenucima dok proslavljaju rođendane u našoj <strong><i>Okean Igraonici</i></strong>.
