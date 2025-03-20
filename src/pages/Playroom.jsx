@@ -32,11 +32,11 @@ export default function PlayroomPage() {
                     </div>
                     <div className="col-12 col-md-6 mt-2">
                         <img src="/assets/images/playroom/Igraonica2.jpg"
-                            className="w-100 rounded mb-2 playroom-main-image" alt="Igraonica2" />
+                            className="w-100 rounded mb-2 playroom-main-image-2" alt="Igraonica2" />
                     </div>
                     <div className="col-12 col-md-6 mt-2">
                         <img src="/assets/images/playroom/Igraonica3.jpg"
-                            className="w-100 rounded mb-2 playroom-main-image" alt="Igraonica3" />
+                            className="w-100 rounded mb-2" alt="Igraonica3" />
                     </div>
                 </div>
             </div>
@@ -52,24 +52,20 @@ export default function PlayroomPage() {
                             Ovaj prostor je idealan za organizaciju rođendanskih zabava, jer pruža savršen ambijent za decu, ali i prostor za
                             roditelje, koji mogu da uživaju u miru i opuštanju po izboru.
                         </p>
-
                         <p className='mt-4'>
                             Naša <strong><i>Okean Igraonica</i></strong> nudi različite pakete za organizaciju rođendana, prilagođene vašim potrebama. Bilo da se odlučite
                             za <b>All Inclusive</b> ili <b>Ultra All Inclusive</b> pakete, u ponudi imamo bogatstvo opcija koje uključuju hranu, piće, zabavu i
                             sve što je potrebno da proslava bude nezaboravna.
                         </p>
-
                         <p className='mt-4'>
                             Deca će uživati u raznovrsnim igrama, kreativnim aktivnostima, i vodićemo ih kroz razne igre pod nadzorom naših
                             animatora, dok se roditelji mogu opustiti u našem restoranu i uživati u specijalitetima po njihovom izboru.
                         </p>
-
                         <p className='mt-4'>
                             Nudimo i različite opcije za <b>hranu i piće</b> – od klasičnih menija, preko zdravih užina, do luksuznih opcija koje uključuju
                             pića i tortu po izboru. Sa našim <b>Ultra All Inclusive</b> paketom, svi gosti mogu uživati u vrhunskim obrocima i napicima
                             tokom cele zabave, čineći rođendan savršenim za celu porodicu.
                         </p>
-
                         <p className='mt-4 playroom-text-bundle'>
                             <b>Pogledajte našu galeriju i izaberite paket koji najviše odgovara vašim potrebama!
                             </b>

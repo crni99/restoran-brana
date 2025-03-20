@@ -18,7 +18,7 @@ export default function ContactPage() {
                             width="100%"
                             height="500"
                             className='contact-map'
-                            style={{ filter: 'invert(90%) hue-rotate(180deg) contrast(83%)' }}
+                            style={{ filter: 'invert(90%) hue-rotate(180deg) contrast(94%)' }}
                             allowFullScreen=""
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"

@@ -29,13 +29,13 @@ export default function Header() {
                                 <Link to="/" className="nav-link"> Početna </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/menu" className="nav-link"> Jelovnik </Link>
+                                <Link to="/jelovnik" className="nav-link"> Jelovnik </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/playroom" className="nav-link"> Okean Igraonica </Link>
+                                <Link to="/igraonica" className="nav-link"> Okean Igraonica </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/contact" className="nav-link"> Kontakt </Link>
+                                <Link to="/kontakt" className="nav-link"> Kontakt </Link>
                             </li>
                         </ul>
                     </div>

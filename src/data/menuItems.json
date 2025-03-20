@@ -2,31 +2,31 @@
     "breakfast": [
         {
             "title": "Kajgana, mini salata, tost sendvič",
-            "image": "/assets/images/breakfast/kajgana-salata-sendvic.jpg",
+            "image": "/assets/images/menu/kajgana-salata-sendvic.jpg",
             "description": "kajgana sa pilećim prsima, uz mini salatu, toplim sendvičem sa pečenicom i wedge krompirom",
             "price": "590,00"
         },
         {
             "title": "Domaće punjene prženice",
-            "image": "/assets/images/breakfast/domace-punjene-przenice.jpg",
+            "image": "/assets/images/menu/domace-punjene-przenice.jpg",
             "description": "punjene gaudom i pilećim prsima, pomfrit i salata",
             "price": "280,00/500,00"
         },
         {
             "title": "Ovsena kaša sa bananom, prelivom od višnje i orašastim plodovima",
-            "image": "/assets/images/breakfast/ovsena-kasa.jpg",
+            "image": "/assets/images/menu/ovsena-kasa.jpg",
             "description": "",
             "price": "330,00"
         },
         {
             "title": "Dva jaja na oko, kobasice, prženice",
-            "image": "/assets/images/breakfast/jaja-kobasice-przenice.jpg",
+            "image": "/assets/images/menu/jaja-kobasice-przenice.jpg",
             "description": "",
             "price": "480,00"
         },
         {
             "title": "Klub sendvič",
-            "image": "/assets/images/breakfast/klub-sendvic.jpg",
+            "image": "/assets/images/menu/klub-sendvic.jpg",
             "description": "Tost sendvič sa piletinom, slaninom, jajetom, paradajzom, ranch sosom, iceberg salatom i pomfritom",
             "price": "490,00"
         }
