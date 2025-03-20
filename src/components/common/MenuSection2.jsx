@@ -14,7 +14,7 @@ const MenuSection2 = ({ title, items, sectionId }) => {
                             <div key={index} className={`carousel-item ${index === 0 ? "active" : ""}`}>
                                 <div className="container d-flex justify-content-center align-items-center">
                                     <div className="row w-100">
-                                        <div className="col-12 col-md-8">
+                                        <div className="col-md-8">
                                             <img
                                                 src={process.env.PUBLIC_URL + item.image}
                                                 className="rounded mx-auto d-block menu-image"
@@ -22,7 +22,7 @@ const MenuSection2 = ({ title, items, sectionId }) => {
                                                 alt={item.title}
                                             />
                                         </div>
-                                        <div className="col-12 col-md-4 menu-text zoom-in-move-down-hover">
+                                        <div className="col-md-4 menu-text zoom-in-move-down-hover">
                                             <h5>{item.title}</h5>
                                             <p className='fst-italic'>{item.description ? item.description : '\u00A0'}</p>
                                             <p>

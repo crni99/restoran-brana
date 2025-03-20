@@ -14,7 +14,7 @@ export default function ContactPage() {
                 data-aos="fade-left" data-aos-duration="2000"
                 id='1'>
                 <div className="row w-100 row-wrapper">
-                    <div className="col-12 col-md-12 mt-3">
+                    <div className="col-md-12 mt-3">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.8784362575907!2d20.223514395464324!3d44.211463708586045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4759e33490edc5e7%3A0x3b442e916ab64d37!2sKafe%20Restoran%20Brana!5e0!3m2!1ssr!2srs!4v1742051253397!5m2!1ssr!2srs"
                             width="100%"
@@ -27,13 +27,13 @@ export default function ContactPage() {
                             title='Google Map'>
                         </iframe>
                     </div>
-                    <div className="col-12 col-md-6" data-aos="zoom-in" data-aos-duration="2000">
+                    <div className="col-md-6" data-aos="zoom-in" data-aos-duration="2000">
                         <p className="mt-3 text-center zoom-in-hover">
                             <FontAwesomeIcon icon={faHome} size="xl" className="mx-2 custom-icon" title="Home" />
                             Ravnogorska BB, 14240, Ljig, Srbija
                         </p>
                     </div>
-                    <div className="col-12 col-md-6" data-aos="zoom-in" data-aos-duration="2000">
+                    <div className="col-md-6" data-aos="zoom-in" data-aos-duration="2000">
                         <p className="mt-3 text-center zoom-in-hover">
                             <FontAwesomeIcon icon={faClock} size="xl" className="mx-2 custom-icon" title="Time" />
                             08:00 - 23:00
@@ -46,7 +46,7 @@ export default function ContactPage() {
                 data-aos="fade-right" data-aos-duration="2000"
                 id='2'>
                 <div className="row w-100 row-wrapper">
-                    <div className="col-12 col-md-4 mt-3">
+                    <div className="col-md-4 mt-3">
                         <h3 className='text-uppercase fw-bold mb-4'>Informacije i rezervacije</h3>
                         <div className='zoom-in-move-right-hover'>
                             <p className='text-secondary'>Restoran Brana</p>
@@ -91,7 +91,7 @@ export default function ContactPage() {
                             </p>
                         </div>
                     </div>
-                    <div className="col-12 col-md-8 d-flex justify-content-end mt-3 zoom-in-move-left-hover">
+                    <div className="col-md-8 d-flex justify-content-end mt-3 zoom-in-move-left-hover">
                         <img src="/assets/images/slikaUnutra.jpg" className="rounded w-100 w-md-75 h-auto contact-image mb-3" alt="Slika Unutra" />
                     </div>
                 </div>

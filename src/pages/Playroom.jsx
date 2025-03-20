@@ -11,13 +11,13 @@ export default function PlayroomPage() {
                 videoSource="/assets/videos/IgraonicaPromoVideo.mp4"
             />
 
-            <div className="container d-flex justify-content-center align-items-center min-vh-90 mt-5" data-aos="fade-up" data-aos-duration="2000">
+            <div className="container d-flex justify-content-center align-items-center min-vh-75 mt-5 mb-5" data-aos="fade-up" data-aos-duration="2000">
                 <div className="row row-wrapper row-direction">
-                    <div className="col-12 col-md-6 mt-2">
+                    <div className="col-md-6 mt-2">
                         <img src="/assets/images/playroom/Igraonica1.jpeg"
                             className="w-100 rounded mb-3 playroom-main-image" alt="Igraonica1" />
                     </div>
-                    <div className="col-12 col-md-6 playroom-text mt-2">
+                    <div className="col-md-6 playroom-text mt-2">
                         U restoranu <strong><i>Brana</i></strong> ne brinemo samo o vašem uživanju u ukusnoj hrani, već i o zabavi za najmlađe. Naša <strong><i>Okean Igraonica</i></strong>
                         &nbsp;je savršeno mesto za decu da se opuste, igraju, istražuju i uživaju u bezbednom okruženju, dok vi, roditelji, možete u
                         potpunosti uživati u obroku.
@@ -33,7 +33,7 @@ export default function PlayroomPage() {
                 </div>
             </div>
 
-            <div className="justify-content-center align-items-center"
+            <div className="justify-content-center align-items-center mt-5 mb-5"
                 data-aos="fade-up" data-aos-duration="2000"
             >
                 <div className="full-width-image position-relative"
@@ -46,7 +46,7 @@ export default function PlayroomPage() {
                     />
                     <div className="overlay-2 position-absolute top-0 start-0 w-100 h-100">
                         <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
-                            <h2 className='mt-4 mb-5'>
+                            <h2 className='mt-4 mb-5 h2'>
                                 Organizujte nezaboravan rođendan u
                                 <br></br>
                                 <span className='fw-bold'>Okean Igraonici</span>
@@ -56,9 +56,9 @@ export default function PlayroomPage() {
                 </div>
             </div>
 
-            <div className="container d-flex justify-content-center align-items-center min-vh-90 mt-5" data-aos="fade-up" data-aos-duration="2000">
+            <div className="container d-flex justify-content-center align-items-center mt-5" data-aos="fade-up" data-aos-duration="2000">
                 <div className="row row-wrapper">
-                    <div className="col-12 col-md-12 playroom-text">
+                    <div className="col-md-12 playroom-text">
                         <p className='mt-2'>
                             U restoranu <strong><i>Brana</i></strong> vaša deca mogu da uživaju u najlepšim trenucima dok proslavljaju rođendane u našoj <strong><i>Okean Igraonici</i></strong>.
                             Ovaj prostor je idealan za organizaciju rođendanskih zabava, jer pruža savršen ambijent za decu, ali i prostor za
@@ -86,9 +86,9 @@ export default function PlayroomPage() {
                 </div>
             </div>
 
-            <div className="container d-flex justify-content-center align-items-center min-vh-90 mt-5 mb-3" data-aos="fade-up" data-aos-duration="2000">
-                <div className="row w-100 row-wrapper">
-                    <div id="carouselExampleIndicators" className="carousel slide mt-3">
+            <div className="container d-flex justify-content-center align-items-center mt-4 mb-5" data-aos="fade-up" data-aos-duration="2000">
+                <div className="row w-100">
+                    <div id="carouselExampleIndicators" className="carousel slide">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -128,14 +128,6 @@ export default function PlayroomPage() {
                                     className="w-100 rounded" alt="AllInclusivePaket1" />
                             </div>
                         </div>
-                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Prethodni</span>
-                        </button>
-                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Sledeći</span>
-                        </button>
                     </div>
                 </div>
             </div>

@@ -14,13 +14,13 @@ export default function HomePage() {
                 videoSource="/assets/videos/BranaPromoVideo.mp4"
             />
 
-            <div className="container d-flex justify-content-center align-items-center min-vh-90 mb-5" data-aos="fade-up" data-aos-duration="2000">
-                <div className="row row-direction">
-                    <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
+            <div className="container d-flex justify-content-center align-items-center min-vh-90 mt-5" data-aos="fade-up" data-aos-duration="2000">
+                <div className="row">
+                    <div className="col-md-6">
                         <img src="/assets/images/home/Brana4.jpg"
-                            className="w-100 rounded mb-3 home-main-image" alt="Igraonica1" />
+                            className="w-100 rounded mb-4 home-main-image" alt="Igraonica1" />
                     </div>
-                    <div className="row-wrapper col-12 col-md-6 home-text playroom-text">
+                    <div className="row-wrapper col-md-6 home-text playroom-text">
                         <p className="fs-4 menu-title text-center">Dobrodošli u Restoran <strong>Brana</strong></p>
                         <p className=''>
                             U srcu Ljiga, restoran <strong><i>Brana</i></strong> nudi vam nezaboravno gastronomsko iskustvo sa tradicionalnom srpskom kuhinjom,
@@ -46,9 +46,9 @@ export default function HomePage() {
                         </p>
                     </div>
                 </div>
-            </div >
+            </div>
 
-            <div className="mt-5 mb-5 full-width-image position-relative" data-aos="zoom-in" data-aos-duration="2000">
+            <div className="full-width-image position-relative" data-aos="zoom-in" data-aos-duration="2000">
                 <img src="/assets/images/menu/mix-kobasica-2.jpg"
                     className="w-50 h-100 object-fit-cover" alt="Igraonica1"
                 />
@@ -56,9 +56,9 @@ export default function HomePage() {
                     className="w-50 h-100 object-fit-cover" alt="Igraonica2"
                 />
                 <div className="overlay position-absolute top-0 start-0 w-100 h-100">
-                    <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
-                        <p>KVALITET NA PRVOM MESTU</p>
-                        <h2 className='mt-4 mb-5'>Probajte Naše Specijalitete</h2>
+                    <div className="position-absolute top-50 start-50 translate-middle text-center text-white w-100 home-full-width-menu">
+                        <p className='h5'>KVALITET NA PRVOM MESTU</p>
+                        <h2 className='h2 mt-4 mb-5'>Probajte Naše Specijalitete</h2>
                         <Link to="/jelovnik" className="btn custom-button-inverted fw-bold p-3 text-decoration-none">
                             POGLEDAJTE JELOVNIK
                         </Link>
@@ -66,13 +66,14 @@ export default function HomePage() {
                 </div>
             </div>
 
-            <div className="container d-flex justify-content-center align-items-center mt-5" data-aos="fade-up" data-aos-duration="2000">
+            <div className="container d-flex justify-content-center align-items-center min-vh-75"
+                data-aos="fade-up" data-aos-duration="2000">
                 <div className='row'>
-                    <div className="col-12 col-md-5 zoom-in-hover mt-5 mb-5">
+                    <div className="col-md-6 zoom-in-hover home-menu-playroom-1">
                         <Link to="/jelovnik">
-                            <div className="mt-5 full-width-image position-relative">
+                            <div className="full-width-image position-relative">
                                 <img src="/assets/images/menu/mix-kobasica-2.jpg"
-                                    className="w-100 h-100 object-fit-cover rounded" alt="Igraonica2"
+                                    className="w-100 h-100 object-fit-cover rounded " alt="Igraonica2"
                                 />
                                 <div className="overlay-2 position-absolute top-0 start-0 w-100 h-100 rounded">
                                     <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
@@ -82,15 +83,13 @@ export default function HomePage() {
                             </div>
                         </Link>
                     </div>
-                    <div className="col-12 col-md-1 zoom-in-hover"></div>
-                    <div className="col-12 col-md-1 zoom-in-hover"></div>
-                    <div className="col-12 col-md-5 zoom-in-hover mt-5 mb-5">
+                    <div className="col-md-6 zoom-in-hover home-menu-playroom-2">
                         <Link to="/igraonica">
-                            <div className="mt-5 full-width-image position-relative">
+                            <div className="full-width-image position-relative">
                                 <img src="/assets/images/playroom/Igraonica2.jpg"
                                     className="w-100 h-100 object-fit-cover rounded" alt="Igraonica2"
                                 />
-                                <div className="overlay-2 position-absolute top-0 start-0 w-100 h-100 rounded">
+                                <div className="overlay-2 position-absolute top-0 start-0 w-100 h-100 rounded ">
                                     <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
                                         <h2>IGRAONICA</h2>
                                     </div>
@@ -99,27 +98,24 @@ export default function HomePage() {
                         </Link>
                     </div>
                 </div>
-            </div >
+            </div>
 
-            <div className="justify-content-center align-items-center min-vh-90"
-                data-aos="fade-up" data-aos-duration="2000"
-            >
-                <div className="full-width-image position-relative home-reserve-table-images">
-                    <img src="/assets/images/home/Brana1.jpg"
-                        className="w-50 h-100 object-fit-cover" alt="Igraonica1"
-                    />
-                    <img src="/assets/images/home/Brana5.jpg"
-                        className="w-50 h-100 object-fit-cover" alt="Igraonica2"
-                    />
-                    <div className="overlay-2 position-absolute top-0 start-0 w-100 h-100">
-                        <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
-                            <img src='/logo512.avif'
-                                className='logo-rounded' alt='Brana Logo' />
-                            <h2 className='mt-4 mb-5'>Rezervišite sto</h2>
-                            <Link to="/kontakt#2" className="btn custom-button-inverted fw-bold p-3 text-decoration-none">
-                                REZERVIŠI
-                            </Link>
-                        </div>
+            <div className="full-width-image position-relative home-reserve-table-images">
+                <img src="/assets/images/home/Brana1.jpg"
+                    className="w-50 h-100 object-fit-cover" alt="Igraonica1"
+                    data-aos="fade-right" data-aos-duration="2000" />
+                <img src="/assets/images/home/Brana5.jpg"
+                    className="w-50 h-100 object-fit-cover" alt="Igraonica2"
+                    data-aos="fade-left" data-aos-duration="2000" />
+                <div className="overlay-2 position-absolute top-0 start-0 w-100 h-100"
+                >
+                    <div className="position-absolute top-50 start-50 translate-middle text-center text-white"
+                        data-aos="zoom-in" data-aos-duration="3000">
+                        <img src='/logo512.avif' className='logo-rounded' alt='Brana Logo' />
+                        <h2 className='mt-4 mb-5'>Rezervišite sto</h2>
+                        <Link to="/kontakt#2" className="btn custom-button-inverted fw-bold p-3 text-decoration-none">
+                            REZERVIŠI
+                        </Link>
                     </div>
                 </div>
             </div>
