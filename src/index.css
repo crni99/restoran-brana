@@ -448,6 +448,14 @@ footer a:active {
     font-size: 0.8rem !important;
     padding: 0.6rem !important;
   }
+
+  .home-full-width-menu-wrapper {
+    margin-top: 51rem !important;
+  }
+
+  .playroom-main-image-wrapper {
+    margin-top: 2rem !important;
+  }
 }
 
 /* Extra Small (Mobile) */
@@ -568,6 +576,22 @@ footer a:active {
     font-size: 0.8rem !important;
     padding: 0.7rem !important;
   }
+
+  .home-full-width-menu-wrapper {
+    margin-top: 6rem !important;
+  }
+
+  .playroom-main-image-wrapper {
+    margin-top: 2rem !important;
+  }
+
+  .full-width-images-playroom-wrapper {
+    margin-top: 4rem !important;
+  }
+
+  .playroom-carousel-wrapper {
+    margin-top: 3rem !important
+  }
 }
 
 /* Small Screens (≥576px) */
@@ -686,6 +710,34 @@ footer a:active {
     padding: 0.7rem !important;
   }
 
+  .home-full-width-menu-wrapper {
+    margin-top: 5rem !important;
+  }
+
+  .home-reserve-table-images {
+    margin-top: 0rem !important;
+  }
+
+  .home-menu-playroom-1 {
+    margin-top: -3rem !important;
+  }
+
+  .home-menu-playroom-2 {
+    margin-top: -3rem !important;
+  }
+
+  .playroom-main-image-wrapper {
+    margin-top: 3.5rem !important;
+  }
+
+  .full-width-images-playroom-wrapper {
+    margin-top: 5rem !important;
+  }
+
+  .playroom-carousel-wrapper {
+    margin-top: 6rem !important
+  }
+
 }
 
 /* Medium Screens (≥768px) */
@@ -773,6 +825,30 @@ footer a:active {
     margin-top: 5rem;
     height: 400px !important;
   }
+
+  .home-full-width-menu-wrapper {
+    margin-top: 5rem !important;
+  }
+
+  .home-reserve-table-images {
+    margin-top: 5rem !important;
+  }
+
+  .home-menu-playroom-1 {
+    margin-top: -2rem !important;
+  }
+
+  .playroom-main-image-wrapper {
+    margin-top: 3.5rem !important;
+  }
+
+  .full-width-images-playroom-wrapper {
+    margin-bottom: 5rem !important;
+  }
+
+  .playroom-carousel-wrapper {
+    margin-top: 5rem !important
+  }
 }
 
 /* Large Screens (≥992px) */
@@ -830,6 +906,14 @@ footer a:active {
     margin-bottom: 1rem !important;
   }
 
+  .playroom-main-image-wrapper {
+    margin-top: 2.5rem !important;
+  }
+
+  .full-width-images-playroom-wrapper {
+    margin-top: 3.5rem !important;
+  }
+
   .home-text {
     margin-bottom: 0rem !important;
   }
@@ -845,7 +929,7 @@ footer a:active {
     margin-bottom: 3rem !important;
   }
 
-  .home-menu-playroom-2{
+  .home-menu-playroom-2 {
     margin-bottom: 3rem !important;
   }
 }
@@ -1013,4 +1097,8 @@ footer a:active {
   border-radius: 50%;
   max-width: 33%;
   ;
+}
+
+.home-reserve-table-images {
+  margin-bottom: 0px !important;
 }

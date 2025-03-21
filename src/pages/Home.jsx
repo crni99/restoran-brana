@@ -14,7 +14,7 @@ export default function HomePage() {
                 videoSource="/assets/videos/BranaPromoVideo.mp4"
             />
 
-            <div className="container d-flex justify-content-center align-items-center min-vh-90 mt-5" data-aos="fade-up" data-aos-duration="2000">
+            <div className="container d-flex justify-content-center align-items-center min-vh-90 mt-4" data-aos="fade-up" data-aos-duration="2000">
                 <div className="row">
                     <div className="col-md-6">
                         <img src="/assets/images/home/Brana4.jpg"
@@ -48,7 +48,7 @@ export default function HomePage() {
                 </div>
             </div>
 
-            <div className="full-width-image position-relative" data-aos="zoom-in" data-aos-duration="2000">
+            <div className="full-width-image position-relative home-full-width-menu-wrapper mt-4" data-aos="zoom-in" data-aos-duration="2000">
                 <img src="/assets/images/menu/mix-kobasica-2.jpg"
                     className="w-50 h-100 object-fit-cover" alt="Igraonica1"
                 />
@@ -66,7 +66,7 @@ export default function HomePage() {
                 </div>
             </div>
 
-            <div className="container d-flex justify-content-center align-items-center min-vh-75"
+            <div className="container d-flex justify-content-center align-items-center min-vh-75 mt-4"
                 data-aos="fade-up" data-aos-duration="2000">
                 <div className='row'>
                     <div className="col-md-6 zoom-in-hover home-menu-playroom-1">
@@ -100,13 +100,12 @@ export default function HomePage() {
                 </div>
             </div>
 
-            <div className="full-width-image position-relative home-reserve-table-images">
+            <div className="full-width-image position-relative home-reserve-table-images mt-5"
+                data-aos="fade-up" data-aos-duration="2000">
                 <img src="/assets/images/home/Brana1.jpg"
-                    className="w-50 h-100 object-fit-cover" alt="Igraonica1"
-                    data-aos="fade-right" data-aos-duration="2000" />
+                    className="w-50 h-100 object-fit-cover" alt="Igraonica1" />
                 <img src="/assets/images/home/Brana5.jpg"
-                    className="w-50 h-100 object-fit-cover" alt="Igraonica2"
-                    data-aos="fade-left" data-aos-duration="2000" />
+                    className="w-50 h-100 object-fit-cover" alt="Igraonica2" />
                 <div className="overlay-2 position-absolute top-0 start-0 w-100 h-100"
                 >
                     <div className="position-absolute top-50 start-50 translate-middle text-center text-white"

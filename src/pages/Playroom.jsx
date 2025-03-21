@@ -11,7 +11,7 @@ export default function PlayroomPage() {
                 videoSource="/assets/videos/IgraonicaPromoVideo.mp4"
             />
 
-            <div className="container d-flex justify-content-center align-items-center min-vh-75 mt-5 mb-5" data-aos="fade-up" data-aos-duration="2000">
+            <div className="container d-flex justify-content-center align-items-center min-vh-75 mt-3 playroom-main-image-wrapper" data-aos="fade-up" data-aos-duration="2000">
                 <div className="row row-wrapper row-direction">
                     <div className="col-md-6 mt-2">
                         <img src="/assets/images/playroom/Igraonica1.jpeg"
@@ -33,7 +33,7 @@ export default function PlayroomPage() {
                 </div>
             </div>
 
-            <div className="justify-content-center align-items-center mt-5 mb-5"
+            <div className="justify-content-center align-items-center mt-3 full-width-images-playroom-wrapper"
                 data-aos="fade-up" data-aos-duration="2000"
             >
                 <div className="full-width-image position-relative"
@@ -56,7 +56,7 @@ export default function PlayroomPage() {
                 </div>
             </div>
 
-            <div className="container d-flex justify-content-center align-items-center mt-5" data-aos="fade-up" data-aos-duration="2000">
+            <div className="container d-flex justify-content-center align-items-center mt-5 min-vh-75" data-aos="fade-up" data-aos-duration="2000">
                 <div className="row row-wrapper">
                     <div className="col-md-12 playroom-text">
                         <p className='mt-2'>
@@ -86,7 +86,7 @@ export default function PlayroomPage() {
                 </div>
             </div>
 
-            <div className="container d-flex justify-content-center align-items-center mt-4 mb-5" data-aos="fade-up" data-aos-duration="2000">
+            <div className="container d-flex justify-content-center align-items-center mt-4 mb-5 playroom-carousel-wrapper" data-aos="fade-up" data-aos-duration="2000">
                 <div className="row w-100">
                     <div id="carouselExampleIndicators" className="carousel slide">
                         <div className="carousel-indicators">
