@@ -2,21 +2,25 @@ import { useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/common/header/Header';
 import Footer from './components/common/Footer';
-import ContactPage from './pages/Contact';
+import HomePage from './pages/Home';
 import MenuPage from './pages/Menu';
+import DrinksPage from './pages/Drinks';
+import PlayroomPage from './pages/Playroom';
+import ContactPage from './pages/Contact';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import PlayroomPage from './pages/Playroom';
-import HomePage from './pages/Home';
-import DrinksPage from './pages/Drinks';
 
-AOS.init();
+
 
 function App() {
 
   const location = useLocation();
 
   useEffect(() => {
+
+    AOS.init({ once: true });
+
     window.scrollTo(0, 0);
 
     setTimeout(() => {

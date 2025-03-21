@@ -1,7 +1,7 @@
 :root {
   --white: #f0f0f0;
   --black: #0f0f0f;
-  --bs-primary: #950606 !important;
+  --red: #950606 !important;
   --dark-red: #3F1717;
   --orange: #fb4405;
 }
@@ -133,11 +133,11 @@ code {
 }
 
 a {
-  color: var(--bs-primary);
+  color: var(--red);
 }
 
 footer a {
-  color: var(--bs-primary);
+  color: var(--red);
 }
 
 a:hover,
@@ -153,15 +153,15 @@ footer a:active {
 }
 
 .bg-primary {
-  background-color: var(--bs-primary) !important;
+  background-color: var(--red) !important;
 }
 
 .navbar-brand span {
-  color: var(--red);
+  color: var(--dark-red);
 }
 
 .nav-link {
-  color: var(--red);
+  color: var(--dark-red);
 }
 
 .nav-link:hover,
