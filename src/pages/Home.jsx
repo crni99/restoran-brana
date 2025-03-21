@@ -23,11 +23,11 @@ export default function HomePage() {
                     <div className="row-wrapper col-md-6 home-text playroom-text">
                         <p className="fs-4 menu-title text-center">Dobrodošli u Restoran <strong>Brana</strong></p>
                         <p className=''>
-                            U srcu Ljiga, restoran <strong><i>Brana</i></strong> nudi vam nezaboravno gastronomsko iskustvo sa tradicionalnom srpskom kuhinjom,
+                            U srcu Ljiga, restoran <strong>Brana</strong> nudi vam nezaboravno gastronomsko iskustvo sa tradicionalnom srpskom kuhinjom,
                             pripremljenom sa pažnjom i ljubavlju. Uživajte u svakom zalogaju, dok vaša deca istražuju i igraju se u našoj
                             &nbsp;
                             <Link to="/igraonica" className="text-decoration-none">
-                                <strong><i><u>Okean Igraonici</u></i></strong>
+                                <strong><u>Okean Igraonici</u></strong>
                                 <FontAwesomeIcon icon={faSquareArrowUpRight} size="sm" className="mx-2 custom-icon" title="Arrow" />
                             </Link>
                             – sigurnom i kreativnom prostoru gde mališani mogu da se opuste, igraju i druže.
@@ -41,7 +41,7 @@ export default function HomePage() {
                             modernim igrama i edukativnim sadržajem.
                         </p>
                         <p className='mt-4'>
-                            Posetite nas i otkrijte zbog čega je <strong><i>Brana</i></strong> savršen izbor za celu porodicu – jer
+                            Posetite nas i otkrijte zbog čega je <strong>Brana</strong>savršen izbor za celu porodicu – jer
                             ovde, zabava, ukus i uživanje na otvorenom idu ruku pod ruku!
                         </p>
                     </div>

@@ -8,6 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import PlayroomPage from './pages/Playroom';
 import HomePage from './pages/Home';
+import DrinksPage from './pages/Drinks';
 
 AOS.init();
 
@@ -30,18 +31,19 @@ function App() {
   }, [location]);
 
   return (
-    <div className="page-container">
+    <>
       <Header />
       <div className="content">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/jelovnik" element={<MenuPage />} />
+          <Route path="/karta-pica" element={<DrinksPage />} />
           <Route path="/igraonica" element={<PlayroomPage />} />
           <Route path="/kontakt" element={<ContactPage />} />
         </Routes>
       </div>
       <Footer />
-    </div>
+    </>
   );
 }
 

@@ -6,6 +6,53 @@
   --orange: #fb4405;
 }
 
+body {
+  margin: 0;
+  font-family: 'Times New Roman', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  background-color: var(--dark-red);
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../public/assets/images/logo2.png');
+  background-size: 480px 480px;
+  background-repeat: repeat;
+  background-position: top left;
+  filter: blur(5px);
+  z-index: -1;
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: 'Playfair Display' !important;
+}
+
 .custom-button {
   color: var(--white);
   background-color: var(--dark-red);
@@ -53,42 +100,6 @@
   padding: 1rem;
   font-size: 1rem;
   text-align: center;
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  position: relative;
-  background-color: var(--dark-red);
-}
-
-body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('../public/assets/images/logo2.png');
-  background-size: 480px 480px;
-  background-repeat: repeat;
-  background-position: top left;
-  filter: blur(5px);
-  z-index: -1;
-}
-
-body::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
 }
 
 strong,
@@ -961,6 +972,24 @@ footer a:active {
 /* Extra Extra Large Screens (≥1400px) */
 @media (min-width: 1400px) {}
 
+/* Turn Fff Hover Effects For Touchscreen Devices */
+@media (hover: none) {
+
+  .zoom-in-hover:hover,
+  .zoom-in-move-right-hover:hover,
+  .zoom-in-move-left-hover:hover,
+  .zoom-in-move-down-hover:hover,
+  .custom-button,
+  .custom-button-inverted,
+  a:hover,
+  footer a:hover,
+  .nav-link:hover,
+  .dropdown-item:hover,
+  .accordion-button:hover {
+    transform: none;
+  }
+}
+
 .playroom-bundle-image {
   max-width: 75%;
   object-fit: contain;
@@ -1036,35 +1065,23 @@ footer a:active {
   color: var(--white) !important;
 }
 
-.zoom-in-hover {
-  transition: transform 0.5s ease;
-}
-
 .zoom-in-hover:hover {
+  transition: transform 0.5s ease;
   transform: scale(1.3);
 }
 
-.zoom-in-move-right-hover {
-  transition: transform 0.5s ease;
-}
-
 .zoom-in-move-right-hover:hover {
+  transition: transform 0.5s ease;
   transform: scale(1.1) translateX(25%);
 }
 
-.zoom-in-move-left-hover {
-  transition: transform 0.5s ease;
-}
-
 .zoom-in-move-left-hover:hover {
+  transition: transform 0.5s ease;
   transform: scale(1.1) translateX(-12%);
 }
 
-.zoom-in-move-down-hover {
-  transition: transform 0.5s ease;
-}
-
 .zoom-in-move-down-hover:hover {
+  transition: transform 0.5s ease;
   transform: scale(1.2) translateY(20%);
 }
 

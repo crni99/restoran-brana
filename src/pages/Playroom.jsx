@@ -18,7 +18,7 @@ export default function PlayroomPage() {
                             className="w-100 rounded mb-3 playroom-main-image" alt="Igraonica1" />
                     </div>
                     <div className="col-md-6 playroom-text mt-2">
-                        U restoranu <strong><i>Brana</i></strong> ne brinemo samo o vašem uživanju u ukusnoj hrani, već i o zabavi za najmlađe. Naša <strong><i>Okean Igraonica</i></strong>
+                        U restoranu <strong>Brana</strong> ne brinemo samo o vašem uživanju u ukusnoj hrani, već i o zabavi za najmlađe. Naša <strong>Okean Igraonica</strong>
                         &nbsp;je savršeno mesto za decu da se opuste, igraju, istražuju i uživaju u bezbednom okruženju, dok vi, roditelji, možete u
                         potpunosti uživati u obroku.
                         <br></br>
@@ -28,7 +28,7 @@ export default function PlayroomPage() {
                         mališani u rukama naših ljubaznih i obazrivih animatora.
                         <br></br>
                         <br></br>
-                        Dođite u <strong><i>Okean Igraonicu</i></strong> restorana <strong><i>Brana</i></strong> i stvorite nezaboravne trenutke za celu porodicu!
+                        Dođite u <strong>Okean Igraonicu</strong> restorana <strong>Brana</strong> i stvorite nezaboravne trenutke za celu porodicu!
                     </div>
                 </div>
             </div>
@@ -60,12 +60,12 @@ export default function PlayroomPage() {
                 <div className="row row-wrapper">
                     <div className="col-md-12 playroom-text">
                         <p className='mt-2'>
-                            U restoranu <strong><i>Brana</i></strong> vaša deca mogu da uživaju u najlepšim trenucima dok proslavljaju rođendane u našoj <strong><i>Okean Igraonici</i></strong>.
+                            U restoranu <strong>Brana</strong> vaša deca mogu da uživaju u najlepšim trenucima dok proslavljaju rođendane u našoj <strong>Okean Igraonici</strong>.
                             Ovaj prostor je idealan za organizaciju rođendanskih zabava, jer pruža savršen ambijent za decu, ali i prostor za
                             roditelje, koji mogu da uživaju u miru i opuštanju po izboru.
                         </p>
                         <p className='mt-4'>
-                            Naša <strong><i>Okean Igraonica</i></strong> nudi različite pakete za organizaciju rođendana, prilagođene vašim potrebama. Bilo da se odlučite
+                            Naša <strong>Okean Igraonica</strong> nudi različite pakete za organizaciju rođendana, prilagođene vašim potrebama. Bilo da se odlučite
                             za <b>All Inclusive</b> ili <b>Ultra All Inclusive</b> pakete, u ponudi imamo bogatstvo opcija koje uključuju hranu, piće, zabavu i
                             sve što je potrebno da proslava bude nezaboravna.
                         </p>

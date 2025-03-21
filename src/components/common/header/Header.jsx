@@ -32,6 +32,9 @@ export default function Header() {
                                 <Link to="/jelovnik" className="nav-link"> Jelovnik </Link>
                             </li>
                             <li className="nav-item">
+                                <Link to="/karta-pica" className="nav-link"> Karta Pića </Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link to="/igraonica" className="nav-link"> Okean Igraonica </Link>
                             </li>
                             <li className="nav-item">
