@@ -21,7 +21,7 @@ export default function HomePage() {
                             className="w-100 rounded mb-4 home-main-image" alt="Igraonica1" />
                     </div>
                     <div className="row-wrapper col-md-6 home-text playroom-text">
-                        <p className="fs-4 menu-title text-center">Dobrodošli u Restoran <strong>Brana</strong></p>
+                        <p className="fs-4 home-section-title text-center">Dobrodošli u Restoran <strong>Brana</strong></p>
                         <p className=''>
                             U srcu Ljiga, restoran <strong>Brana</strong> nudi vam nezaboravno gastronomsko iskustvo sa tradicionalnom srpskom kuhinjom,
                             pripremljenom sa pažnjom i ljubavlju. Uživajte u svakom zalogaju, dok vaša deca istražuju i igraju se u našoj
@@ -111,7 +111,7 @@ export default function HomePage() {
                     <div className="position-absolute top-50 start-50 translate-middle text-center text-white"
                         data-aos="zoom-in" data-aos-duration="3000">
                         <img src='/logo512.avif' className='logo-rounded' alt='Brana Logo' />
-                        <h2 className='mt-4 mb-5'>Rezervišite sto</h2>
+                        <h2 className='mt-4 mb-5 home-reserve-title'>Rezervišite sto</h2>
                         <Link to="/kontakt#2" className="btn custom-button-inverted fw-bold p-3 text-decoration-none">
                             REZERVIŠI
                         </Link>

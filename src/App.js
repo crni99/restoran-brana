@@ -11,8 +11,6 @@ import ContactPage from './pages/Contact';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-
-
 function App() {
 
   const location = useLocation();

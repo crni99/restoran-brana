@@ -1,49 +1,40 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 import logo from "../../../assets/logo.svg";
 
 export default function Header() {
     return (
         <header>
-            <nav className="navbar navbar-expand-lg shadow-sm mb-3 bg-body-tertiary">
-                <div className="container">
+            <Navbar expand="lg" className="shadow-sm mb-3 bg-body-tertiary">
+                <Container>
                     <Link to="/" className="navbar-brand">
                         <img src={logo} width="30" height="30" className="d-inline-block align-top" alt="Logo" />
+                        &nbsp;
                         <span>Restoran Brana</span>
                     </Link>
-                    <button
-                        className="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav ms-auto">
-                            <li className="nav-item">
-                                <Link to="/" className="nav-link"> Početna </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="/jelovnik" className="nav-link"> Jelovnik </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="/karta-pica" className="nav-link"> Karta Pića </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="/igraonica" className="nav-link"> Okean Igraonica </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="/kontakt" className="nav-link"> Kontakt </Link>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+                    <Navbar.Toggle aria-controls="navbarResponsive" />
+                    <Navbar.Collapse id="navbarResponsive">
+                        <Nav className="ms-auto">
+                            <Nav.Item>
+                                <Link to="/" className="nav-link">Početna</Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Link to="/jelovnik" className="nav-link">Jelovnik</Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Link to="/karta-pica" className="nav-link">Karta Pića</Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Link to="/igraonica" className="nav-link">Okean Igraonica</Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Link to="/kontakt" className="nav-link">Kontakt</Link>
+                            </Nav.Item>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
         </header>
     );
 }

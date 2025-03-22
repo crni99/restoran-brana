@@ -47,9 +47,13 @@ export default function PlayroomPage() {
                     <div className="overlay-2 position-absolute top-0 start-0 w-100 h-100">
                         <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
                             <h2 className='mt-4 mb-5 h2'>
-                                Organizujte nezaboravan rođendan u
+                                <span className='playroom-birthday-title'>
+                                    Organizujte nezaboravan rođendan u
+                                </span>
                                 <br></br>
-                                <span className='fw-bold'>Okean Igraonici</span>
+                                <span className='fw-bold'>
+                                    Okean Igraonici
+                                </span>
                             </h2>
                         </div>
                     </div>
@@ -88,7 +92,7 @@ export default function PlayroomPage() {
 
             <div className="container d-flex justify-content-center align-items-center mt-4 mb-5 playroom-carousel-wrapper" data-aos="fade-up" data-aos-duration="2000">
                 <div className="row w-100">
-                    <div id="carouselExampleIndicators" className="carousel slide">
+                    <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -100,37 +104,31 @@ export default function PlayroomPage() {
                         </div>
                         <div className="carousel-playroom carousel-inner rounded">
                             <div className="carousel-item playroom-bundle-image active">
-                                <img src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket1.jpg"
-                                    className="w-100 rounded" alt="UltraAllInclusivePaket1" />
+                                <img src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket1.jpg" className="w-100 rounded" alt="UltraAllInclusivePaket1" />
                             </div>
                             <div className="carousel-item playroom-bundle-image">
-                                <img src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket2.jpg"
-                                    className="w-100 rounded" alt="UltraAllInclusivePaket2" />
+                                <img src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket2.jpg" className="w-100 rounded" alt="UltraAllInclusivePaket2" />
                             </div>
                             <div className="carousel-item playroom-bundle-image ">
-                                <img src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket3.jpg"
-                                    className="w-100 rounded" alt="UltraAllInclusivePaket3" />
+                                <img src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket3.jpg" className="w-100 rounded" alt="UltraAllInclusivePaket3" />
                             </div>
                             <div className="carousel-item playroom-bundle-image">
-                                <img src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket4.jpg"
-                                    className="w-100 rounded" alt="UltraAllInclusivePaket4" />
+                                <img src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket4.jpg" className="w-100 rounded" alt="UltraAllInclusivePaket4" />
                             </div>
                             <div className="carousel-item playroom-bundle-image">
-                                <img src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket5.jpg"
-                                    className="w-100 rounded" alt="UltraAllInclusivePaket5" />
+                                <img src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket5.jpg" className="w-100 rounded" alt="UltraAllInclusivePaket5" />
                             </div>
                             <div className="carousel-item playroom-bundle-image">
-                                <img src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket6.jpg"
-                                    className="w-100 rounded" alt="UltraAllInclusivePaket6" />
+                                <img src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket6.jpg" className="w-100 rounded" alt="UltraAllInclusivePaket6" />
                             </div>
                             <div className="carousel-item playroom-bundle-image">
-                                <img src="/assets/images/playroom/all-inclusive/AllInclusivePaket1.jpg"
-                                    className="w-100 rounded" alt="AllInclusivePaket1" />
+                                <img src="/assets/images/playroom/all-inclusive/AllInclusivePaket1.jpg" className="w-100 rounded" alt="AllInclusivePaket1" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </>
     );
 }

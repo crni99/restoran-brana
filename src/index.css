@@ -202,6 +202,13 @@ footer a:active {
   color: var(--dark-red);
   font-weight: 500;
   margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.home-section-title {
+  color: var(--dark-red);
+  font-weight: 500;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -467,6 +474,19 @@ footer a:active {
   .playroom-main-image-wrapper {
     margin-top: 2rem !important;
   }
+
+  .home-reserve-title {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .alert-wrapper {
+    width: 85% !important;
+  }
+
+  .playroom-birthday-title {
+    font-size: 0.9rem !important;
+  }
 }
 
 /* Extra Small (Mobile) */
@@ -602,6 +622,19 @@ footer a:active {
 
   .playroom-carousel-wrapper {
     margin-top: 3rem !important
+  }
+
+  .home-reserve-title {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .alert-wrapper {
+    width: 85% !important;
+  }
+
+  .playroom-birthday-title {
+    font-size: 1.1rem !important;
   }
 }
 
@@ -749,6 +782,13 @@ footer a:active {
     margin-top: 6rem !important
   }
 
+  .alert-wrapper {
+    width: 75% !important;
+  }
+
+  .playroom-birthday-title {
+    font-size: 1.3rem !important;
+  }
 }
 
 /* Medium Screens (≥768px) */
@@ -859,6 +899,10 @@ footer a:active {
 
   .playroom-carousel-wrapper {
     margin-top: 5rem !important
+  }
+
+  .alert-wrapper {
+    width: 60% !important;
   }
 }
 
@@ -972,21 +1016,46 @@ footer a:active {
 /* Extra Extra Large Screens (≥1400px) */
 @media (min-width: 1400px) {}
 
-/* Turn Fff Hover Effects For Touchscreen Devices */
+/* Turn Off Hover, Focus, and Active Effects For Touchscreen Devices */
 @media (hover: none) {
-
   .zoom-in-hover:hover,
   .zoom-in-move-right-hover:hover,
   .zoom-in-move-left-hover:hover,
   .zoom-in-move-down-hover:hover,
-  .custom-button,
-  .custom-button-inverted,
+  .custom-button:hover,
+  .custom-button-inverted:hover,
   a:hover,
   footer a:hover,
   .nav-link:hover,
   .dropdown-item:hover,
-  .accordion-button:hover {
+  .accordion-button:hover,
+
+  .zoom-in-hover:focus,
+  .zoom-in-move-right-hover:focus,
+  .zoom-in-move-left-hover:focus,
+  .zoom-in-move-down-hover:focus,
+  .custom-button:focus,
+  .custom-button-inverted:focus,
+  a:focus,
+  footer a:focus,
+  .nav-link:focus,
+  .dropdown-item:focus,
+  .accordion-button:focus,
+
+  .zoom-in-hover:active,
+  .zoom-in-move-right-hover:active,
+  .zoom-in-move-left-hover:active,
+  .zoom-in-move-down-hover:active,
+  .custom-button:active,
+  .custom-button-inverted:active,
+  a:active,
+  footer a:active,
+  .nav-link:active,
+  .dropdown-item:active,
+  .accordion-button:active {
     transform: none;
+    color: inherit;
+    background-color: inherit;
   }
 }
 
@@ -1065,6 +1134,10 @@ footer a:active {
   color: var(--white) !important;
 }
 
+.video-background-holder video {
+  filter: contrast(1.1);
+}
+
 .zoom-in-hover:hover {
   transition: transform 0.5s ease;
   transform: scale(1.3);
@@ -1118,4 +1191,10 @@ footer a:active {
 
 .home-reserve-table-images {
   margin-bottom: 0px !important;
+}
+
+.row-wrapper #carouselExampleCaptionsBreakfast .carousel-indicators,
+.row-wrapper #carouselExampleCaptionsDinner .carousel-indicators,
+.row-wrapper #carouselExampleCaptionsLunch .carousel-indicators {
+  display: none;
 }

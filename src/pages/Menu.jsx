@@ -23,7 +23,7 @@ const MenuPage = () => {
             {showAlert && (
                 <>
                     <div className="alert-overlay"></div>
-                    <div className="alert-center p-5">
+                    <div className="alert-center p-5 alert-wrapper">
                         <div className="alert row-wrapper" data-aos='zoom-in' data-aos-duration="1000">
                             <strong>Napomena:<br></br></strong>
                             Jelovnik na sajtu možda nije usklađen sa aktuelnim jelovnikom u restoranu.
@@ -37,19 +37,19 @@ const MenuPage = () => {
             <MenuSection2
                 title="Doručak (servira se do 13:00)"
                 items={breakfastItems}
-                sectionId="Breakfast1"
+                sectionId="Breakfast"
             />
 
             <MenuSection2
                 title="Doručak (servira se do 13:00)"
                 items={breakfastItems}
-                sectionId="Breakfast2"
+                sectionId="Dinner"
             />
 
             <MenuSection2
                 title="Doručak (servira se do 13:00)"
                 items={breakfastItems}
-                sectionId="Breakfast3"
+                sectionId="Lunch"
             />
         </div>
     );

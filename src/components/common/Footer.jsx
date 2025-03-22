@@ -2,27 +2,32 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { Container, Row, Col } from 'react-bootstrap';
 
 export default function Footer() {
-    
+
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="text-center text-lg-start bg-body-tertiary text-muted">
-            <div className="container footer-text d-flex justify-content-between align-items-center p-4">
-                <span>{currentYear} &copy; Restoran Brana</span>
-                <div>
-                    <a href="https://github.com/crni99" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faGithub} size="lg" className="mx-2" title="GitHub" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/ognj3n" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faLinkedin} size="lg" className="mx-2" title="LinkedIn" />
-                    </a>
-                    <a href="mailto:andjelicb.ognjen@gmail.com" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faEnvelope} size="lg" className="mx-2" title="Email" />
-                    </a>
-                </div>
-            </div>
+        <footer className="bg-body-tertiary text-muted">
+            <Container className="p-4">
+                <Row className="d-flex justify-content-between align-items-center">
+                    <Col className="text-center text-lg-start">
+                        <span>{currentYear} &copy; Restoran Brana</span>
+                    </Col>
+                    <Col className="d-flex justify-content-center justify-content-lg-end">
+                        <a href="https://github.com/crni99" target="_blank" rel="noopener noreferrer" className="mx-2">
+                            <FontAwesomeIcon icon={faGithub} size="lg" title="GitHub" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/ognj3n" target="_blank" rel="noopener noreferrer" className="mx-2">
+                            <FontAwesomeIcon icon={faLinkedin} size="lg" title="LinkedIn" />
+                        </a>
+                        <a href="mailto:andjelicb.ognjen@gmail.com" target="_blank" rel="noopener noreferrer" className="mx-2">
+                            <FontAwesomeIcon icon={faEnvelope} size="lg" title="Email" />
+                        </a>
+                    </Col>
+                </Row>
+            </Container>
         </footer>
     );
 }
