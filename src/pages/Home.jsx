@@ -84,14 +84,14 @@ export default function HomePage() {
                         </Link>
                     </div>
                     <div className="col-md-6 zoom-in-hover home-menu-playroom-2">
-                        <Link to="/igraonica">
+                        <Link to="/karta-pica">
                             <div className="full-width-image position-relative">
-                                <img src="/assets/images/playroom/Igraonica2.jpg"
+                                <img src="/assets/images/home/Brana7.jpg"
                                     className="w-100 h-100 object-fit-cover rounded" alt="Igraonica2"
                                 />
                                 <div className="overlay-2 position-absolute top-0 start-0 w-100 h-100 rounded ">
                                     <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
-                                        <h2>IGRAONICA</h2>
+                                        <h2>KARTA PIĆA</h2>
                                     </div>
                                 </div>
                             </div>

@@ -1198,3 +1198,22 @@ footer a:active {
 .row-wrapper #carouselExampleCaptionsLunch .carousel-indicators {
   display: none;
 }
+
+.alert-title {
+  color: var(--dark-red);
+}
+
+.list-group {
+  background-color: unset !important;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.list-group-item {
+  background-color: unset !important;
+}
+
+.home-menu-playroom-1, .home-menu-playroom-2 {
+  max-width: 100%;
+  height: auto;
+}

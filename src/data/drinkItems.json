@@ -1,0 +1,426 @@
+{
+    "topli_napici": [
+        {
+            "title": "Domaća kafa",
+            "price": "170,00"
+        },
+        {
+            "title": "Espresso",
+            "price": "190,00"
+        },
+        {
+            "title": "Dupli Espresso",
+            "price": "290,00"
+        },
+        {
+            "title": "Espresso sa mlekom",
+            "price": "210,00"
+        },
+        {
+            "title": "Espresso bez kofeina",
+            "price": "230,00"
+        },
+        {
+            "title": "Capuccino",
+            "price": "230,00"
+        },
+        {
+            "title": "Nescafe",
+            "price": "250,00"
+        },
+        {
+            "title": "Latte coffee",
+            "price": "180,00"
+        },
+        {
+            "title": "Mocha coffee",
+            "price": "220,00"
+        },
+        {
+            "title": "Baileys Coffee",
+            "price": "320,00"
+        },
+        {
+            "title": "Irish Coffee",
+            "price": "290,00"
+        },
+        {
+            "title": "Čaj sa medom i limunom",
+            "price": "190,00"
+        },
+        {
+            "title": "Čaj Milford",
+            "price": "230,00"
+        },
+        {
+            "title": "Topla čokolada",
+            "price": "260,00"
+        },
+        {
+            "title": "Plazma šejk",
+            "price": "340,00"
+        }
+    ],
+    "dodaci": [
+        {
+            "title": "Mleko",
+            "price": "80,00"
+        },
+        {
+            "title": "Sojino mleko",
+            "price": "80,00"
+        },
+        {
+            "title": "Šlag",
+            "price": "80,00"
+        },
+        {
+            "title": "Med",
+            "price": "80,00"
+        }
+    ],
+    "voda": [
+        {
+            "title": "Aqua viva 0.25",
+            "price": "190,00"
+        },
+        {
+            "title": "Aqua viva 1l",
+            "price": "310,00"
+        },
+        {
+            "title": "Knjaz Miloš 0.25",
+            "price": "190,00"
+        },
+        {
+            "title": "Knjaz Miloš 1l",
+            "price": "310,00"
+        }
+    ],
+    "sokovi": [
+        {
+            "title": "Pepsi 0,25",
+            "price": "240,00"
+        },
+        {
+            "title": "Pepsi max 0,25",
+            "price": "240,00"
+        },
+        {
+            "title": "Mirinda 0,25",
+            "price": "240,00"
+        },
+        {
+            "title": "7UP 0,25",
+            "price": "240,00"
+        },
+        {
+            "title": "Evervess 0,25",
+            "price": "240,00"
+        },
+        {
+            "title": "Šveps Tonic Water 0,25",
+            "price": "240,00"
+        },
+        {
+            "title": "My tea 0,33",
+            "price": "290,00"
+        },
+        {
+            "title": "Gusto sokovi 0,2",
+            "price": "270,00"
+        },
+        {
+            "title": "Cedevita 0,25",
+            "price": "230,00"
+        },
+        {
+            "title": "Homemade ice tea",
+            "price": "390,00"
+        },
+        {
+            "title": "Limunada 0,30",
+            "price": "270,00"
+        },
+        {
+            "title": "Ceđena pomorandža 0,30",
+            "price": "420,00"
+        },
+        {
+            "title": "Ceđeni grejp 0,30",
+            "price": "440,00"
+        },
+        {
+            "title": "Citrusni mix",
+            "price": "460,00"
+        },
+        {
+            "title": "Plazma shake",
+            "price": "440,00"
+        }
+    ],
+    "energetska_pica": [
+        {
+            "title": "Guarana 0,25",
+            "price": "320,00"
+        },
+        {
+            "title": "Red Bull 0,25",
+            "price": "420,00"
+        }
+    ],
+    "cideri": [
+        {
+            "title": "Somersby kruška 0,33",
+            "price": "370,00"
+        },
+        {
+            "title": "Somersby borovnica 0,33",
+            "price": "370,00"
+        },
+        {
+            "title": "Somersby jabuka 0,33",
+            "price": "370,00"
+        },
+        {
+            "title": "Somersby malina 0,33",
+            "price": "370,00"
+        },
+        {
+            "title": "Somersby jagoda 0,33",
+            "price": "370,00"
+        }
+    ],
+    "rakije": [
+        {
+            "title": "Domaća šljiva 0,03",
+            "price": "230,00"
+        },
+        {
+            "title": "Uteha naša 0,03",
+            "price": "490,00"
+        }
+    ],
+    "zaric_rakije": [
+        {
+            "title": "Kraljica šljiva 0,03",
+            "price": "360,00"
+        },
+        {
+            "title": "Nostalgija dunja 0,03",
+            "price": "380,00"
+        },
+        {
+            "title": "Magija kajsija 0,03",
+            "price": "380,00"
+        },
+        {
+            "title": "Nirvana viljamovka 0,03",
+            "price": "360,00"
+        },
+        {
+            "title": "Medena 0,03",
+            "price": "360,00"
+        },
+        {
+            "title": "Koketa višnja 0,03",
+            "price": "340,00"
+        },
+        {
+            "title": "Viljamovka Takovo 0,03",
+            "price": "260,00"
+        }
+    ],
+    "alkoholna_pica": [
+        {
+            "title": "Vinjak Rubin 0,05",
+            "price": "210,00"
+        },
+        {
+            "title": "Votka Smirnoff 0,03",
+            "price": "260,00"
+        },
+        {
+            "title": "Tequilla Two Fingers 0,03",
+            "price": "330,00"
+        },
+        {
+            "title": "Bacardi 0,03",
+            "price": "270,00"
+        },
+        {
+            "title": "Gin Sinner 0,03",
+            "price": "240,00"
+        },
+        {
+            "title": "Bulldog Gin 0,03",
+            "price": "340,00"
+        },
+        {
+            "title": "Rum Havana klub 3 yo. 0,03",
+            "price": "320,00"
+        },
+        {
+            "title": "Martini Bianco 0,05",
+            "price": "300,00"
+        },
+        {
+            "title": "Vermouth Caldriola 0,05",
+            "price": "210,00"
+        },
+        {
+            "title": "Jagermeister 0,05",
+            "price": "380,00"
+        },
+        {
+            "title": "Baileys 0,05",
+            "price": "480,00"
+        },
+        {
+            "title": "Gorki List 0,05",
+            "price": "240,00"
+        }
+    ],
+    "viski_burbon": [
+        {
+            "title": "Ballantines 0,03",
+            "price": "290,00"
+        },
+        {
+            "title": "Johhnie Walker red 0,03",
+            "price": "320,00"
+        },
+        {
+            "title": "Johnnie Walker Black 0,03",
+            "price": "560,00"
+        },
+        {
+            "title": "Chivas 12 Y.O. 0,03",
+            "price": "520,00"
+        },
+        {
+            "title": "Jack Daniels 0,03",
+            "price": "440,00"
+        },
+        {
+            "title": "Four Roses 0,03",
+            "price": "360,00"
+        },
+        {
+            "title": "Jameson 0,03",
+            "price": "390,00"
+        },
+        {
+            "title": "Jim Beam 0,03",
+            "price": "275,00"
+        }
+    ],
+    "konjak": [
+        {
+            "title": "Hennessy V.S. 0,03",
+            "price": "690,00"
+        },
+        {
+            "title": "Courvoisier V.S. 0,03",
+            "price": "540,00"
+        },
+        {
+            "title": "Martell V.S. 0,03",
+            "price": "620,00"
+        }
+    ],
+    "flasirana_piva": [
+        {
+            "title": "Tuborg 0,33",
+            "price": "320,00"
+        },
+        {
+            "title": "Carlsberg 0,25",
+            "price": "340,00"
+        },
+        {
+            "title": "Lav Premium 0,33",
+            "price": "270,00"
+        },
+        {
+            "title": "Budweiser 0,33",
+            "price": "380,00"
+        },
+        {
+            "title": "Budweiser tamno 0,33",
+            "price": "350,00"
+        },
+        {
+            "title": "Erdinger 0,33",
+            "price": "540,00"
+        },
+        {
+            "title": "Kronenbourg Blanc 0,33",
+            "price": "330,00"
+        },
+        {
+            "title": "San Miguel 0,33",
+            "price": "560,00"
+        }
+    ],
+    "tocena_piva": [
+        {
+            "title": "Tuborg 0,3",
+            "price": "260,00"
+        },
+        {
+            "title": "Tuborg 0,5",
+            "price": "350,00"
+        }
+    ],
+    "bela_vina": [
+        {
+            "title": "Tamjanika Budimir 0,75/0,125",
+            "price": "3700,00 / 620,00"
+        },
+        {
+            "title": "Žuti Cvet Aleksić 0,75/0,125",
+            "price": "3200,00 / 530,00"
+        },
+        {
+            "title": "Tri Morave Temet 0,75/0,125",
+            "price": "3700,00 / 620,00"
+        },
+        {
+            "title": "8 Tamburaša Z. Bogdan 0,75/0,125",
+            "price": "3200,00 / 530,00"
+        },
+        {
+            "title": "Kovačević Chardonnay 0,75/0,125",
+            "price": "3300,00 / 550,00"
+        }
+    ],
+    "rose_vina": [
+        {
+            "title": "Barbara Aleksić 0,75/0,125",
+            "price": "2800,00 / 470,00"
+        },
+        {
+            "title": "4 Konja Debela Z. Bogdan 0,75/0,125",
+            "price": "3000,00 / 500,00"
+        },
+        {
+            "title": "Pink Punk Chichateau 0,75/0,125",
+            "price": "3200,00 / 530,00"
+        }
+    ],
+    "crvena_vina": [
+        {
+            "title": "Aurelijus Kovačević 0,75/0,125",
+            "price": "3400,00 / 570,00"
+        },
+        {
+            "title": "Prokupac Ivanović 0,75/0,125",
+            "price": "3600,00 / 600,00"
+        },
+        {
+            "title": "Život Teče Z. Bogdan 0,75/0,125",
+            "price": "3300,00 / 540,00"
+        }
+    ]
+}
