@@ -1,5 +1,5 @@
 import React from 'react';
-import VideoSection from '../components/common/VideoSection';
+import VideoSection from '../components/sections/VideoSection';
 
 export default function PlayroomPage() {
 

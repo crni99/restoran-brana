@@ -1,5 +1,5 @@
 import React from 'react';
-import VideoSection from '../components/common/VideoSection';
+import VideoSection from '../components/sections/VideoSection';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons';

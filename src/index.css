@@ -487,6 +487,15 @@ footer a:active {
   .playroom-birthday-title {
     font-size: 0.9rem !important;
   }
+
+  .dropdown-item-link {
+    margin-left: 1rem !important;
+  }
+
+  .dropdown-menu {
+    background-color: unset !important;
+    border: unset !important;
+  }
 }
 
 /* Extra Small (Mobile) */
@@ -635,6 +644,15 @@ footer a:active {
 
   .playroom-birthday-title {
     font-size: 1.1rem !important;
+  }
+
+  .dropdown-item-link {
+    margin-left: 1rem !important;
+  }
+
+  .dropdown-menu {
+    background-color: unset !important;
+    border: unset !important;
   }
 }
 
@@ -789,6 +807,16 @@ footer a:active {
   .playroom-birthday-title {
     font-size: 1.3rem !important;
   }
+
+  .dropdown-item-link {
+    margin-left: 1rem !important;
+  }
+
+  .dropdown-menu {
+    background-color: unset !important;
+    border: unset !important;
+  }
+  
 }
 
 /* Medium Screens (≥768px) */
@@ -904,6 +932,15 @@ footer a:active {
   .alert-wrapper {
     width: 60% !important;
   }
+
+  .dropdown-item-link {
+    margin-left: 1rem !important;
+  }
+
+  .dropdown-menu {
+    background-color: unset !important;
+    border: unset !important;
+  }
 }
 
 /* Large Screens (≥992px) */
@@ -987,6 +1024,7 @@ footer a:active {
   .home-menu-playroom-2 {
     margin-bottom: 3rem !important;
   }
+
 }
 
 /* Extra Large Screens (≥1200px) */
@@ -1083,6 +1121,7 @@ footer a:active {
 
 .playroom-text {
   font-size: 1.25rem;
+  font-family: 'Playfair Display' !important;
 }
 
 .video-background-holder {
@@ -1213,7 +1252,8 @@ footer a:active {
   background-color: unset !important;
 }
 
-.home-menu-playroom-1, .home-menu-playroom-2 {
+.home-menu-playroom-1,
+.home-menu-playroom-2 {
   max-width: 100%;
   height: auto;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 const DrinkSection = ({ title, items }) => {
     return (
-        <div className='min-vh-90 d-flex justify-content-center align-items-center' data-aos='fade-up' data-aos-duration="2000">
+        <div className='min-vh-75 d-flex justify-content-center align-items-center' data-aos='fade-up' data-aos-duration="2000">
             <div className="row-wrapper w-100">
                 <span>
                     <p className="fs-4 menu-title text-center">{title}</p>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
-import logo from "../../../assets/logo.svg";
+import logo from "../assets/logo.svg";
 
 export default function Header() {
     return (
@@ -26,11 +26,11 @@ export default function Header() {
                                 <Link to="/" className="nav-link">Početna</Link>
                             </Nav.Item>
                             <NavDropdown title="Meni" id="navbarDropdown" drop="down">
-                                <NavDropdown.Item as={Link} to="/jelovnik" className="nav-link">
-                                    Jelovnik
+                                <NavDropdown.Item as={Link} to="/jelovnik" className="nav-link dropdown-item-link">
+                                    &nbsp;Jelovnik
                                 </NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to="/karta-pica" className="nav-link">
-                                    Karta Pića
+                                <NavDropdown.Item as={Link} to="/karta-pica" className="nav-link dropdown-item-link">
+                                    &nbsp;Karta Pića
                                 </NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Item>

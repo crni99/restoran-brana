@@ -1,17 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import menuItems from '../data/menuItems.json';
-import MenuSection2 from '../components/common/MenuSection2';
+import MenuSection2 from '../components/sections/MenuSection2';
 import MainTitle from '../components/MainTitle';
-import Alert from '../components/common/Alert';
+import Alert from '../components/Alert';
 
 const MenuPage = () => {
-
-    const [breakfastItems, setBreakfastItems] = useState([]);
+    
+    const [menuSections, setMenuSections] = useState([]);
 
     useEffect(() => {
-
-        setBreakfastItems(menuItems.breakfast);
-
+        setMenuSections([
+            { title: 'Doručak (servira se do 13:00)', items: menuItems.breakfast, sectionId: 'Breakfast' },
+            { title: 'Predjela', items: menuItems.breakfast, sectionId: 'Dinner' },
+            { title: 'Hamburgeri', items: menuItems.breakfast, sectionId: 'Lunch' }
+        ]);
     }, []);
 
     return (
@@ -21,24 +23,14 @@ const MenuPage = () => {
 
             <Alert message="Jelovnik na sajtu možda nije usklađen sa aktuelnim jelovnikom u restoranu." />
 
-            <MenuSection2
-                title="Doručak (servira se do 13:00)"
-                items={breakfastItems}
-                sectionId="Breakfast"
-            />
-
-            <MenuSection2
-                title="Doručak (servira se do 13:00)"
-                items={breakfastItems}
-                sectionId="Dinner"
-            />
-
-            <MenuSection2
-                title="Doručak (servira se do 13:00)"
-                items={breakfastItems}
-                sectionId="Lunch"
-            />
-
+            {menuSections.map((section, index) => (
+                <MenuSection2
+                    key={index}
+                    title={section.title}
+                    items={section.items}
+                    sectionId={section.sectionId}
+                />
+            ))}
         </div>
     );
 };

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import drinkItems from '../data/drinkItems.json';
-import DrinkSection from '../components/common/DrinkSection';
+import DrinkSection from '../components/sections/DrinkSection';
 import MainTitle from '../components/MainTitle';
-import Alert from '../components/common/Alert';
+import Alert from '../components/Alert';
 
 const DrinksPage = () => {
 
@@ -35,6 +35,8 @@ const DrinksPage = () => {
             <MainTitle title="Karta Pića" />
 
             <Alert message="Karta pića na sajtu možda nije usklađena sa aktuelnom kartom pića u restoranu." />
+
+            <div className='mt-3 mb-3'> &nbsp; </div>
 
             {drinkSections.map((section, index) => (
                 <DrinkSection

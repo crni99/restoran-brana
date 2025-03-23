@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
-import Header from './components/common/header/Header';
-import Footer from './components/common/Footer';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import HomePage from './pages/Home';
 import MenuPage from './pages/Menu';
 import DrinksPage from './pages/Drinks';
@@ -35,15 +35,13 @@ function App() {
   return (
     <>
       <Header />
-      <div className="content">
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/jelovnik" element={<MenuPage />} />
-          <Route path="/karta-pica" element={<DrinksPage />} />
-          <Route path="/igraonica" element={<PlayroomPage />} />
-          <Route path="/kontakt" element={<ContactPage />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/jelovnik" element={<MenuPage />} />
+        <Route path="/karta-pica" element={<DrinksPage />} />
+        <Route path="/igraonica" element={<PlayroomPage />} />
+        <Route path="/kontakt" element={<ContactPage />} />
+      </Routes>
       <Footer />
     </>
   );
