@@ -527,6 +527,10 @@ footer a:active {
     margin-left: 1rem;
     margin-right: 1rem;
   }
+
+  .carousel-indicators {
+    transform: translateX(0%) !important;
+  }
 }
 
 /* Extra Small (Mobile) */
@@ -689,6 +693,10 @@ footer a:active {
   .modal-content {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .carousel-indicators {
+    transform: translateX(0%) !important;
   }
 }
 
@@ -853,6 +861,10 @@ footer a:active {
     border: unset !important;
   }
 
+  .carousel-indicators {
+    transform: translateX(0%) !important;
+  }
+
 }
 
 /* Medium Screens (≥768px) */
@@ -977,6 +989,10 @@ footer a:active {
     background-color: unset !important;
     border: unset !important;
   }
+
+  .carousel-indicators {
+    transform: translateX(-3.5%) !important;
+  }
 }
 
 /* Large Screens (≥992px) */
@@ -1061,10 +1077,15 @@ footer a:active {
     margin-bottom: 3rem !important;
   }
 
+  .carousel-indicators {
+    transform: translateX(-7%) !important;
+  }
+
 }
 
 /* Extra Large Screens (≥1200px) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+
   .carousel-control-prev {
     margin-left: -3rem !important;
   }
@@ -1142,6 +1163,7 @@ footer a:active {
 
 .carousel-indicators {
   margin-bottom: 0rem !important;
+  transform: translateX(-17.5%);
 }
 
 /*
@@ -1293,4 +1315,13 @@ footer a:active {
 .home-menu-playroom-2 {
   max-width: 100%;
   height: auto;
+}
+
+#carouselPlayroomIndicators .carousel-control-prev,
+#carouselPlayroomIndicators .carousel-control-next {
+  display: none;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  color: var(--white) !important;
 }

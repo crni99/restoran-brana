@@ -1,5 +1,6 @@
 import React from 'react';
 import VideoSection from '../components/sections/VideoSection';
+import { Carousel } from 'react-bootstrap';
 
 export default function PlayroomPage() {
 
@@ -92,40 +93,57 @@ export default function PlayroomPage() {
 
             <div className="container d-flex justify-content-center align-items-center mt-4 mb-5 playroom-carousel-wrapper" data-aos="fade-up" data-aos-duration="2000">
                 <div className="row w-100">
-                    <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-                        <div className="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                        </div>
-                        <div className="carousel-playroom carousel-inner rounded">
-                            <div className="carousel-item playroom-bundle-image active">
-                                <img src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket1.jpg" className="w-100 rounded" alt="UltraAllInclusivePaket1" />
-                            </div>
-                            <div className="carousel-item playroom-bundle-image">
-                                <img src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket2.jpg" className="w-100 rounded" alt="UltraAllInclusivePaket2" />
-                            </div>
-                            <div className="carousel-item playroom-bundle-image ">
-                                <img src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket3.jpg" className="w-100 rounded" alt="UltraAllInclusivePaket3" />
-                            </div>
-                            <div className="carousel-item playroom-bundle-image">
-                                <img src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket4.jpg" className="w-100 rounded" alt="UltraAllInclusivePaket4" />
-                            </div>
-                            <div className="carousel-item playroom-bundle-image">
-                                <img src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket5.jpg" className="w-100 rounded" alt="UltraAllInclusivePaket5" />
-                            </div>
-                            <div className="carousel-item playroom-bundle-image">
-                                <img src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket6.jpg" className="w-100 rounded" alt="UltraAllInclusivePaket6" />
-                            </div>
-                            <div className="carousel-item playroom-bundle-image">
-                                <img src="/assets/images/playroom/all-inclusive/AllInclusivePaket1.jpg" className="w-100 rounded" alt="AllInclusivePaket1" />
-                            </div>
-                        </div>
-                    </div>
+                    <Carousel id="carouselPlayroomIndicators" interval={3000} className="carousel-playroom">
+                        <Carousel.Item className="playroom-bundle-image active">
+                            <img
+                                src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket1.jpg"
+                                className="d-block w-100 rounded"
+                                alt="UltraAllInclusivePaket1"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item className="playroom-bundle-image">
+                            <img
+                                src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket2.jpg"
+                                className="d-block w-100 rounded"
+                                alt="UltraAllInclusivePaket2"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item className="playroom-bundle-image">
+                            <img
+                                src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket3.jpg"
+                                className="d-block w-100 rounded"
+                                alt="UltraAllInclusivePaket3"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item className="playroom-bundle-image">
+                            <img
+                                src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket4.jpg"
+                                className="d-block w-100 rounded"
+                                alt="UltraAllInclusivePaket4"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item className="playroom-bundle-image">
+                            <img
+                                src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket5.jpg"
+                                className="d-block w-100 rounded"
+                                alt="UltraAllInclusivePaket5"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item className="playroom-bundle-image">
+                            <img
+                                src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket6.jpg"
+                                className="d-block w-100 rounded"
+                                alt="UltraAllInclusivePaket6"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item className="playroom-bundle-image">
+                            <img
+                                src="/assets/images/playroom/all-inclusive/AllInclusivePaket1.jpg"
+                                className="d-block w-100 rounded"
+                                alt="AllInclusivePaket1"
+                            />
+                        </Carousel.Item>
+                    </Carousel>
                 </div>
             </div>
 
