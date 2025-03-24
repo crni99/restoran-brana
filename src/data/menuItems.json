@@ -31,80 +31,112 @@
             "price": "490,00"
         }
     ],
-    "appetizer": [
-        {
-            "title": "Teleća Čorba",
-            "image": "/images/lunch1.jpg",
-            "description": "",
-            "price": "170,00/290,00"
-        },
+    "appetizers": [
         {
             "title": "Mocarela štapići sa ranch sosom",
-            "image": "/images/lunch2.jpg",
+            "image": "/assets/images/menu/mocarela-stapici-1.jpg",
             "description": "štapići 150/300g, ranch sos, pomfrit",
             "price": "270,00/480,00"
         },
         {
             "title": "Zapečeni pomfrit sa sirom čedar i slaninom",
-            "image": "/images/lunch3.jpg",
+            "image": "/assets/images/menu/zapeceni-pomfrit-1.jpg",
             "description": "150/300g pomfrit, čedar sos, hrskavi luk, slaninica",
             "price": "240,00/400,00"
         },
         {
             "title": "Cezar salata sa piletinom",
-            "image": "/images/lunch3.jpg",
+            "image": "/assets/images/menu/cezar-salata-1.jpg",
             "description": "piletina 120g, iceberg salata 130g, sos 'a la Cesar', kurtoni, slanina, parmezan",
             "price": "590,00"
         },
         {
             "title": "Vitaminska salata sa dresingom iz kikirikija i susama",
-            "image": "/images/lunch3.jpg",
+            "image": "/assets/images/menu/vitaminska-salata-1.jpg",
             "description": "iceberg salata, crveni kupus, kukuruz šećerac, krastavac, paradajz, krutoni, susam, kikiriki sos",
             "price": "390,00"
         },
         {
             "title": "Grilovano povrće",
-            "image": "/images/lunch3.jpg",
+            "image": "/assets/images/menu/grilovano-povrce-1.jpg",
             "description": "",
             "price": "450,00"
         }
     ],
     "burgers": [
         {
-            "title": "Beef Burger Regular",
-            "image": "/images/lunch1.jpg",
-            "description": "juneći kotlet 160g, burger sos, iceberg salata, paradajz, kiseli krastavci + pomfrit",
-            "price": "690,00"
+            "title": "Beef Regular Burger",
+            "image": "/assets/images/menu/beefregularburger-1.jpg",
+            "description": "100% junetina, burger sos, iceberg salata, paradajz, kiseli krastavčići + pomfrit",
+            "price": "660,00"
         },
         {
             "title": "Cheese Burger",
-            "image": "/images/lunch2.jpg",
-            "description": "juneći kotlet 160g, burger sos, iceberg salata, paradajz, kiseli krastavci, čedar sos + pomfrit",
-            "price": "720,00"
+            "image": "/assets/images/menu/cheeseburger-1.jpg",
+            "description": "100% junetina, burger sos, iceberg salata, paradajz, kiseli krastavčići, čedar + pomfrit",
+            "price": "690,00"
         },
         {
             "title": "Smash Burger",
-            "image": "/images/lunch3.jpg",
-            "description": "juneći kotleti 2x160g, marmelada luk, burger sos, iceberg salata, čedar sos, hrskavi luk + pomfrit",
-            "price": "750,00"
+            "image": "/assets/images/menu/smashburger-1.jpg",
+            "description": "100% junetina, marmelada luk, burger sos, iceberg salata, hrskavi luk, čedar + pomfrit",
+            "price": "720,00"
         },
         {
             "title": "Brana Burger",
-            "image": "/images/lunch3.jpg",
-            "description": "juneći kotlet 160g, marmelada, luk, burger sos, gauda, čedar sos, paradajz, kiseli krastavci, slanina + pomfrit",
-            "price": "790,00"
+            "image": "/assets/images/menu/branaburger-1.jpg",
+            "description": "100% junetina, marmelada luk, burger sos, gauda, paradajz, kiseli krastavčići, slanina, čedar + pomfrit",
+            "price": "750,00"
         },
         {
             "title": "Tortilja Piletina",
-            "image": "/images/lunch3.jpg",
+            "image": "/assets/images/menu/tortilja-piletina-1.jpg",
             "description": "tortilja, piletina, hrskava slanina, gauda, iceberg salata, paradajz, cezar sos, BBQ sos + pomfrit",
             "price": "490,00"
+        }
+    ],
+    "main": [
+        {
+            "title": "Hrskava Pileća Krilca",
+            "image": "/assets/images/menu/hrskava-pileca-krilca-1.jpg",
+            "description": "krilca 300g, sos po izboru: sweet chili ili BBQ, wedge krompir",
+            "price": "540,00"
         },
         {
-            "title": "Tortilja Tuna",
-            "image": "/images/lunch3.jpg",
-            "description": "tortilja, tuna, iceberg salata, posni majonez, paradajz + pomfrit",
-            "price": "450,00"
+            "title": "Stripsi iz pilećeg filea",
+            "image": "/assets/images/menu/stripsi-1.jpg",
+            "description": "belo meso 250g, BBQ sos, krompir wedge",
+            "price": "590,00"
+        },
+        {
+            "title": "Drpana svinjetina",
+            "image": "/assets/images/menu/drpana-svinjetina-1.jpg",
+            "description": "marinirana svinjska plećka 170g, krompir pire 160g, ren sos 50g",
+            "price": "910,00"
+        },
+        {
+            "title": "Cvrčak ćevapi",
+            "image": "/assets/images/menu/cevapi-cvrcak.jpg",
+            "description": "10 ćevapa 350g, kajmak 50g, mundir krompir 150g",
+            "price": "560,00/960,00"
+        },
+        {
+            "title": "Cvrčak pljeskavica",
+            "image": "/assets/images/menu/pljeskavica-cvrcak-1.jpg",
+            "description": "pljeskavica 350g, kajmak 50g, mundir krompir 150g",
+            "price": "560,00/960,00"
+        },
+        {
+            "title": "Pastrmka sa grilovanim povrćem 1kg",
+            "image": "/assets/images/menu/pastrmka-1.jpg",
+            "description": "tikvica, paprika, pečurke, paradajz",
+            "price": "2600,00"
+        },
+        {
+            "title": "Filet soma pohovan u pivu (Fish & Chips)",
+            "image": "/assets/images/menu/filet-soma-1.jpg",
+            "description": "wedge krompir, posni tartar sos",
+            "price": "650,00"
         }
     ]
 }

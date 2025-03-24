@@ -1,19 +1,27 @@
 import React, { useState, useEffect } from 'react';
 import menuItems from '../data/menuItems.json';
-import MenuSection2 from '../components/sections/MenuSection2';
+import MenuSection from '../components/sections/MenuSection';
 import MainTitle from '../components/MainTitle';
-import Alert from '../components/Alert';
+import CustomModal from '../components/CustomModal';
 
 const MenuPage = () => {
-    
+
+    const [showAlert, setShowAlert] = useState(false);
+    const handleClose = () => setShowAlert(false);
+
     const [menuSections, setMenuSections] = useState([]);
 
     useEffect(() => {
+
+        setShowAlert(true);
+        
         setMenuSections([
             { title: 'Doručak (servira se do 13:00)', items: menuItems.breakfast, sectionId: 'Breakfast' },
-            { title: 'Predjela', items: menuItems.breakfast, sectionId: 'Dinner' },
-            { title: 'Hamburgeri', items: menuItems.breakfast, sectionId: 'Lunch' }
+            { title: 'Predjelo I Obrok Salate', items: menuItems.appetizers, sectionId: 'Appetizers' },
+            { title: 'Burgeri I Tortilje', items: menuItems.burgers, sectionId: 'Burgers' },
+            { title: 'Glavna Jela', items: menuItems.main, sectionId: 'Main' }
         ]);
+
     }, []);
 
     return (
@@ -21,10 +29,14 @@ const MenuPage = () => {
 
             <MainTitle title="Jelovnik" />
 
-            <Alert message="Jelovnik na sajtu možda nije usklađen sa aktuelnim jelovnikom u restoranu." />
+            <CustomModal
+                message="Jelovnik na sajtu možda nije usklađen sa aktuelnim jelovnikom u restoranu."
+                show={showAlert}
+                onHide={handleClose}
+            />
 
             {menuSections.map((section, index) => (
-                <MenuSection2
+                <MenuSection
                     key={index}
                     title={section.title}
                     items={section.items}

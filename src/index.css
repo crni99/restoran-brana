@@ -54,27 +54,53 @@ a {
 }
 
 .custom-button {
-  color: var(--white);
-  background-color: var(--dark-red);
+  color: var(--white) !important;
+  background-color: var(--dark-red) !important;
+  border: unset !important;
 }
 
-.custom-button:hover,
-.custom-button:active,
-.custom-button:focus {
-  color: var(--dark-red);
-  background-color: var(--white);
+.custom-button:hover {
+  color: var(--dark-red) !important;
+  background-color: unset !important;
+  border: solid 0.1rem var(--dark-red) !important;
+}
+
+.custom-button:active {
+  color: var(--white) !important;
+  background-color: var(--dark-red) !important;
+  border: solid 0.1rem var(--dark-red) !important;
+}
+
+.custom-button:focus-visible {
+  color: var(--white) !important;
+  background-color: var(--dark-red) !important;
+  border: solid 0.1rem var(--dark-red) !important;
+  box-shadow: 0 0 0 0.25rem rgba(var(--dark-red), .5) !important;
 }
 
 .custom-button-inverted {
-  color: var(--dark-red);
-  background-color: var(--white);
+  color: var(--dark-red) !important;
+  background-color: var(--white) !important;
+  border: unset !important;
 }
 
-.custom-button-inverted:hover,
-.custom-button-inverted:active,
-.custom-button-inverted:focus {
-  color: var(--white);
-  border: solid 0.1rem var(--white);
+.custom-button-inverted:hover {
+  color: var(--white) !important;
+  background-color: unset !important;
+  border: solid 0.1rem var(--white) !important;
+}
+
+.custom-button-inverted:active {
+  color: var(--dark-red) !important;
+  background-color: var(--white) !important;
+  border: solid 0.1rem var(--white) !important;
+}
+
+.custom-button-inverted:focus-visible {
+  color: var(--dark-red) !important;
+  background-color: var(--white) !important;
+  border: solid 0.1rem var(--white) !important;
+  box-shadow: 0 0 0 0.25rem rgba(var(--white), .5) !important;
 }
 
 .alert-overlay {
@@ -496,6 +522,11 @@ footer a:active {
     background-color: unset !important;
     border: unset !important;
   }
+
+  .modal-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
 
 /* Extra Small (Mobile) */
@@ -653,6 +684,11 @@ footer a:active {
   .dropdown-menu {
     background-color: unset !important;
     border: unset !important;
+  }
+
+  .modal-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 
@@ -816,7 +852,7 @@ footer a:active {
     background-color: unset !important;
     border: unset !important;
   }
-  
+
 }
 
 /* Medium Screens (≥768px) */
@@ -1233,8 +1269,9 @@ footer a:active {
 }
 
 .row-wrapper #carouselExampleCaptionsBreakfast .carousel-indicators,
-.row-wrapper #carouselExampleCaptionsDinner .carousel-indicators,
-.row-wrapper #carouselExampleCaptionsLunch .carousel-indicators {
+.row-wrapper #carouselExampleCaptionsAppetizers .carousel-indicators,
+.row-wrapper #carouselExampleCaptionsBurgers .carousel-indicators,
+.row-wrapper #carouselExampleCaptionsMain .carousel-indicators {
   display: none;
 }
 

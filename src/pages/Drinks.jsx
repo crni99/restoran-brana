@@ -2,13 +2,19 @@ import React, { useState, useEffect } from 'react';
 import drinkItems from '../data/drinkItems.json';
 import DrinkSection from '../components/sections/DrinkSection';
 import MainTitle from '../components/MainTitle';
-import Alert from '../components/Alert';
+import CustomModal from '../components/CustomModal';
 
 const DrinksPage = () => {
+
+    const [showAlert, setShowAlert] = useState(false);
+    const handleClose = () => setShowAlert(false);
 
     const [drinkSections, setDrinkSections] = useState([]);
 
     useEffect(() => {
+
+        setShowAlert(true);
+
         setDrinkSections([
             { title: 'Topli napici', items: drinkItems.topli_napici, sectionId: 'topli_napici' },
             { title: 'Dodaci', items: drinkItems.dodaci, sectionId: 'dodaci' },
@@ -34,7 +40,11 @@ const DrinksPage = () => {
 
             <MainTitle title="Karta Pića" />
 
-            <Alert message="Karta pića na sajtu možda nije usklađena sa aktuelnom kartom pića u restoranu." />
+            <CustomModal
+                message="Karta pića na sajtu možda nije usklađena sa aktuelnom kartom pića u restoranu."
+                show={showAlert}
+                onHide={handleClose}
+            />
 
             <div className='mt-3 mb-3'> &nbsp; </div>
 
