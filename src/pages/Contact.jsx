@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagramSquare, faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faHome, faPhone, faClock } from '@fortawesome/free-solid-svg-icons';
@@ -6,9 +7,11 @@ import MainTitle from '../components/MainTitle';
 
 export default function ContactPage() {
 
+    const { t } = useTranslation();
+
     return (
         <>
-            <MainTitle title="Kontakt" />
+            <MainTitle title={t('Contact')} />
 
             <div className="container d-flex justify-content-center align-items-center min-vh-90"
                 data-aos="fade-left" data-aos-duration="2000"
@@ -47,46 +50,46 @@ export default function ContactPage() {
                 id='2'>
                 <div className="row w-100 row-wrapper">
                     <div className="col-md-4 mt-3">
-                        <h3 className='text-uppercase fw-bold mb-4'>Informacije i rezervacije</h3>
+                        <h3 className='text-uppercase fw-bold mb-4'>{t('ContactPage.subTitle')}</h3>
                         <div className='zoom-in-move-right-hover'>
-                            <p className='text-secondary'>Restoran Brana</p>
+                            <p className='text-secondary'>{t('ContactPage.branaTitle')}</p>
                             <p className="mt-2">
                                 <a href="tel:+381658679000" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon icon={faPhone} size="xl" className="mx-2 custom-icon" title="Phone" />
-                                    Pozovite nas +381 65 867 9000
+                                    {t('ContactPage.branaPhone')}
                                 </a>
                             </p>
                             <p className="mt-4">
                                 <a href="mailto:example@example.com" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon icon={faEnvelope} size="xl" className="mx-2 custom-icon" title="Email" />
-                                    Imate pitanje? Pišite nam.
+                                    {t('ContactPage.branaMail')}
                                 </a>
                             </p>
                             <p className="mt-4">
                                 <a href="https://www.facebook.com/RestoranBrana/" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon icon={faFacebookSquare} size="xl" className="mx-2 custom-icon" title="Facebook" />
-                                    Pogledajte Facebook stranicu.
+                                    {t('ContactPage.branaFacebook')}
                                 </a>
                             </p>
                             <p className="mt-4">
                                 <a href="https://www.instagram.com/restoran.brana.ljig/" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon icon={faInstagramSquare} size="xl" className="mx-2 custom-icon" title="Instagram" />
-                                    Zapratite nas na Instagramu.
+                                    {t('ContactPage.branaInstagram')}
                                 </a>
                             </p>
                         </div>
                         <div className='zoom-in-move-right-hover'>
-                            <p className='text-secondary mt-5'>Okean Igraonica</p>
+                            <p className='text-secondary mt-5'>{t('ContactPage.okeanTitle')}</p>
                             <p className="mt-2">
                                 <a href="tel:+381643758641" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon icon={faPhone} size="xl" className="mx-2 custom-icon" title="Phone" />
-                                    Pozovite nas +381 64 375 8641
+                                    {t('ContactPage.okeanPhone')}
                                 </a>
                             </p>
                             <p className="mt-4">
                                 <a href="https://www.instagram.com/okean_igraonica/" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon icon={faInstagramSquare} size="xl" className="mx-2 custom-icon" title="Instagram" />
-                                    Zapratite nas na Instagramu.
+                                    {t('ContactPage.okeanInstagram')}
                                 </a>
                             </p>
                         </div>

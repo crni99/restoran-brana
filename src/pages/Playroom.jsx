@@ -1,14 +1,18 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+import { Trans } from 'react-i18next';
 import VideoSection from '../components/sections/VideoSection';
 import { Carousel } from 'react-bootstrap';
 
 export default function PlayroomPage() {
 
+    const { t } = useTranslation();
+
     return (
         <>
             <VideoSection
-                title="Okean Igraonica"
-                subTitle="Mesto gde zabava ne prestaje!"
+                title={t('Playroom')}
+                subTitle={t('PlayroomPage.subTitle')}
                 videoSource="/assets/videos/IgraonicaPromoVideo.mp4"
             />
 
@@ -19,17 +23,13 @@ export default function PlayroomPage() {
                             className="w-100 rounded mb-3 playroom-main-image" alt="Igraonica1" />
                     </div>
                     <div className="col-md-6 playroom-text mt-2">
-                        U restoranu <strong>Brana</strong> ne brinemo samo o vašem uživanju u ukusnoj hrani, već i o zabavi za najmlađe. Naša <strong>Okean Igraonica</strong>
-                        &nbsp;je savršeno mesto za decu da se opuste, igraju, istražuju i uživaju u bezbednom okruženju, dok vi, roditelji, možete u
-                        potpunosti uživati u obroku.
+                        <Trans i18nKey="PlayroomPage.sectionText1"></Trans>
                         <br></br>
                         <br></br>
-                        U okeanskoj atmosferi, sa modernim igrama i kreativnim sadržajem, deca mogu da se igraju, uče i druže sa vršnjacima, dok
-                        se vi opuštate uz našu ponudu specijaliteta. Naša igraonica je dizajnirana da pruži sigurnost i zabavu, tako da su svi
-                        mališani u rukama naših ljubaznih i obazrivih animatora.
+                        {t('PlayroomPage.sectionText2')}
                         <br></br>
                         <br></br>
-                        Dođite u <strong>Okean Igraonicu</strong> restorana <strong>Brana</strong> i stvorite nezaboravne trenutke za celu porodicu!
+                        <Trans i18nKey="PlayroomPage.sectionText3"></Trans>
                     </div>
                 </div>
             </div>
@@ -49,11 +49,11 @@ export default function PlayroomPage() {
                         <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
                             <h2 className='mt-4 mb-5 h2'>
                                 <span className='playroom-birthday-title'>
-                                    Organizujte nezaboravan rođendan u
+                                    {t('PlayroomPage.organizeBirthday')}
                                 </span>
                                 <br></br>
                                 <span className='fw-bold'>
-                                    Okean Igraonici
+                                    {t('PlayroomPage.playroomLink')}
                                 </span>
                             </h2>
                         </div>
@@ -65,26 +65,20 @@ export default function PlayroomPage() {
                 <div className="row row-wrapper">
                     <div className="col-md-12 playroom-text">
                         <p className='mt-2'>
-                            U restoranu <strong>Brana</strong> vaša deca mogu da uživaju u najlepšim trenucima dok proslavljaju rođendane u našoj <strong>Okean Igraonici</strong>.
-                            Ovaj prostor je idealan za organizaciju rođendanskih zabava, jer pruža savršen ambijent za decu, ali i prostor za
-                            roditelje, koji mogu da uživaju u miru i opuštanju po izboru.
+                            <Trans i18nKey="PlayroomPage.sectionText4"></Trans>
                         </p>
                         <p className='mt-4'>
-                            Naša <strong>Okean Igraonica</strong> nudi različite pakete za organizaciju rođendana, prilagođene vašim potrebama. Bilo da se odlučite
-                            za <b>All Inclusive</b> ili <b>Ultra All Inclusive</b> pakete, u ponudi imamo bogatstvo opcija koje uključuju hranu, piće, zabavu i
-                            sve što je potrebno da proslava bude nezaboravna.
+                            <Trans i18nKey="PlayroomPage.sectionText5"></Trans>
                         </p>
                         <p className='mt-4'>
-                            Deca će uživati u raznovrsnim igrama, kreativnim aktivnostima, i vodićemo ih kroz razne igre pod nadzorom naših
-                            animatora, dok se roditelji mogu opustiti u našem restoranu i uživati u specijalitetima po njihovom izboru.
+                            {t('PlayroomPage.sectionText6')}
                         </p>
                         <p className='mt-4'>
-                            Nudimo i različite opcije za <b>hranu i piće</b> – od klasičnih menija, preko zdravih užina, do luksuznih opcija koje uključuju
-                            pića i tortu po izboru. Sa našim <b>Ultra All Inclusive</b> paketom, svi gosti mogu uživati u vrhunskim obrocima i napicima
-                            tokom cele zabave, čineći rođendan savršenim za celu porodicu.
+                            <Trans i18nKey="PlayroomPage.sectionText7"></Trans>
                         </p>
                         <p className='mt-4 playroom-text-bundle'>
-                            <b>Pogledajte našu galeriju i izaberite paket koji najviše odgovara vašim potrebama!
+                            <b>
+                                <Trans i18nKey="PlayroomPage.sectionText8"></Trans>
                             </b>
                         </p>
                     </div>

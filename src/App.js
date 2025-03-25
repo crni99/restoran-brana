@@ -1,5 +1,8 @@
 import { useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
+import { LanguageProvider } from './context/LanguageContext';
+import { I18nextProvider } from 'react-i18next';
+import i18n from './i18n';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HomePage from './pages/Home';
@@ -34,15 +37,19 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/jelovnik" element={<MenuPage />} />
-        <Route path="/karta-pica" element={<DrinksPage />} />
-        <Route path="/igraonica" element={<PlayroomPage />} />
-        <Route path="/kontakt" element={<ContactPage />} />
-      </Routes>
-      <Footer />
+      <I18nextProvider i18n={i18n}>
+        <LanguageProvider>
+          <Header />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/jelovnik" element={<MenuPage />} />
+            <Route path="/karta-pica" element={<DrinksPage />} />
+            <Route path="/igraonica" element={<PlayroomPage />} />
+            <Route path="/kontakt" element={<ContactPage />} />
+          </Routes>
+          <Footer />
+        </LanguageProvider>
+      </I18nextProvider>
     </>
   );
 }

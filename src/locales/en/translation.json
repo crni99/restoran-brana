@@ -1,0 +1,49 @@
+{
+    "RestaurantName": "Brana",
+    "PlayroomName": "Ocean Playroom",
+    "Home": "Home",
+    "HomePage": {
+        "subTitle": "Caffe | Restaurant | Playroom",
+        "sectionTitle": "Welcome to Restaurant <strong>Brana</strong>",
+        "sectionText1": "In the heart of Ljig, <strong>Brana</strong> restaurant offers an unforgettable gastronomic experience with traditional Serbian cuisine, prepared with care and love. Enjoy every bite while your children explore and play in our",
+        "playroomLink": "Ocean Playroom",
+        "sectionText2": "– a safe and creative space where little ones can relax, play, and socialize.",
+        "sectionText3": "For those who enjoy the outdoors, our garden is the perfect place for summer relaxation. Here, you can enjoy your favorite dishes and drinks while soaking up the sun and pleasant atmosphere.",
+        "sectionText4": "While relaxing with our specialties, your child will be in the safe hands of our friendly animators, enjoying modern games and educational content.",
+        "sectionText5": "Visit us and discover why <strong>Brana</strong> is the perfect choice for the whole family – because here, fun, flavor, and outdoor enjoyment go hand in hand!",
+        "qualityText": "QUALITY FIRST",
+        "specialtiesText": "Try Our Specialties",
+        "checkMenuButton": "SEE MENU",
+        "bookTableText": "Book a table",
+        "reserveButton": "RESERVE"
+    },
+    "Menu": "Menu",
+    "MenuV2": "Menu",
+    "Drinks": "Drink Card",
+    "Playroom": "Ocean Playroom",
+    "PlayroomPage": {
+        "subTitle": "A place where fun never ends!",
+        "sectionText1": "At <strong>Brana</strong> restaurant, we don't just care about your enjoyment of delicious food but also about fun for the little ones. Our <strong>Ocean Playroom</strong> is the perfect place for kids to relax, play, explore, and enjoy a safe environment, while you, the parents, can fully enjoy your meal.",
+        "sectionText2": "In an oceanic atmosphere, with modern games and creative content, kids can play, learn, and socialize with their peers, while you relax with our specialty offerings. Our playroom is designed to provide safety and fun, so all the little ones are in the care of our friendly and attentive animators.",
+        "sectionText3": "Come to the <strong>Ocean Playroom</strong> at <strong>Brana</strong> restaurant and create unforgettable moments for the whole family!",
+        "organizeBirthday": "Organize an unforgettable birthday at",
+        "playroomLink": "Ocean Playroom",
+        "sectionText4": "At <strong>Brana</strong> restaurant, your children can enjoy the most beautiful moments while celebrating birthdays in our <strong>Ocean Playroom</strong>. This space is ideal for organizing birthday parties as it offers a perfect environment for kids, but also a space for parents who can relax in peace and comfort.",
+        "sectionText5": "Our <strong>Ocean Playroom</strong> offers different birthday party packages tailored to your needs. Whether you choose the <strong>All Inclusive</strong> or <strong>Ultra All Inclusive</strong> package, we have a wide variety of options that include food, drinks, entertainment, and everything needed to make the celebration unforgettable.",
+        "sectionText6": "Kids will enjoy various games, creative activities, and we will guide them through different games under the supervision of our animators, while parents can relax in our restaurant and enjoy the specialties of their choice.",
+        "sectionText7": "We also offer different options for <strong>food and drinks</strong> – from classic menus to healthy snacks, and luxurious options that include drinks and cake of your choice. With our <strong>Ultra All Inclusive</strong> package, all guests can enjoy top-quality meals and drinks throughout the celebration, making the birthday perfect for the entire family.",
+        "sectionText8": "Check out our gallery and choose the package that best suits your needs!"
+    },
+    "Contact": "Contact",
+    "ContactPage": {
+        "subTitle": "Information and reservations",
+        "branaTitle": "Restaurant Brana",
+        "branaPhone": "Call us at +381 65 867 9000",
+        "branaMail": "Have a question? Write to us.",
+        "branaFacebook": "Visit our Facebook page.",
+        "branaInstagram": "Follow us on Instagram.",
+        "okeanTitle": "Ocean Playroom",
+        "okeanPhone": "Call us at +381 64 375 8641",
+        "okeanInstagram": "Follow us on Instagram."
+    }
+}

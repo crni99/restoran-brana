@@ -1,0 +1,142 @@
+{
+    "breakfast": [
+        {
+            "title": "Scrambled eggs, mini salad, toasted sandwich",
+            "image": "/assets/images/menu/kajgana-salata-sendvic.jpg",
+            "description": "scrambled eggs with chicken breast, served with a mini salad, warm sandwich with bacon, and wedge fries",
+            "price": "590.00"
+        },
+        {
+            "title": "Homemade stuffed French toast",
+            "image": "/assets/images/menu/domace-punjene-przenice.jpg",
+            "description": "stuffed with gouda and chicken breast, served with fries and salad",
+            "price": "280.00/500.00"
+        },
+        {
+            "title": "Oatmeal with banana, cherry sauce, and nuts",
+            "image": "/assets/images/menu/ovsena-kasa.jpg",
+            "description": "",
+            "price": "330.00"
+        },
+        {
+            "title": "Two fried eggs, sausages, French toast",
+            "image": "/assets/images/menu/jaja-kobasice-przenice.jpg",
+            "description": "",
+            "price": "480.00"
+        },
+        {
+            "title": "Club sandwich",
+            "image": "/assets/images/menu/klub-sendvic.jpg",
+            "description": "Toasted sandwich with chicken, bacon, egg, tomato, ranch dressing, iceberg lettuce, and fries",
+            "price": "490.00"
+        }
+    ],
+    "appetizers": [
+        {
+            "title": "Mozzarella sticks with ranch sauce",
+            "image": "/assets/images/menu/mocarela-stapici-1.jpg",
+            "description": "150/300g sticks, ranch sauce, fries",
+            "price": "270.00/480.00"
+        },
+        {
+            "title": "Baked fries with cheddar cheese and bacon",
+            "image": "/assets/images/menu/zapeceni-pomfrit-1.jpg",
+            "description": "150/300g fries, cheddar sauce, crispy onions, bacon",
+            "price": "240.00/400.00"
+        },
+        {
+            "title": "Caesar salad with chicken",
+            "image": "/assets/images/menu/cezar-salata-1.jpg",
+            "description": "120g chicken, 130g iceberg lettuce, 'a la Caesar' dressing, croutons, bacon, parmesan",
+            "price": "590.00"
+        },
+        {
+            "title": "Vitamin salad with peanut and sesame dressing",
+            "image": "/assets/images/menu/vitaminska-salata-1.jpg",
+            "description": "iceberg lettuce, red cabbage, corn, cucumber, tomato, croutons, sesame, peanut dressing",
+            "price": "390.00"
+        },
+        {
+            "title": "Grilled vegetables",
+            "image": "/assets/images/menu/grilovano-povrce-1.jpg",
+            "description": "",
+            "price": "450.00"
+        }
+    ],
+    "burgers": [
+        {
+            "title": "Beef Regular Burger",
+            "image": "/assets/images/menu/beefregularburger-1.jpg",
+            "description": "100% beef, burger sauce, iceberg lettuce, tomato, pickles + fries",
+            "price": "660.00"
+        },
+        {
+            "title": "Cheese Burger",
+            "image": "/assets/images/menu/cheeseburger-1.jpg",
+            "description": "100% beef, burger sauce, iceberg lettuce, tomato, pickles, cheddar + fries",
+            "price": "690.00"
+        },
+        {
+            "title": "Smash Burger",
+            "image": "/assets/images/menu/smashburger-1.jpg",
+            "description": "100% beef, caramelized onions, burger sauce, iceberg lettuce, crispy onions, cheddar + fries",
+            "price": "720.00"
+        },
+        {
+            "title": "Brana Burger",
+            "image": "/assets/images/menu/branaburger-1.jpg",
+            "description": "100% beef, caramelized onions, burger sauce, gouda, tomato, pickles, bacon, cheddar + fries",
+            "price": "750.00"
+        },
+        {
+            "title": "Chicken Tortilla",
+            "image": "/assets/images/menu/tortilja-piletina-1.jpg",
+            "description": "tortilla, chicken, crispy bacon, gouda, iceberg lettuce, tomato, caesar dressing, BBQ sauce + fries",
+            "price": "490.00"
+        }
+    ],
+    "main": [
+        {
+            "title": "Crispy Chicken Wings",
+            "image": "/assets/images/menu/hrskava-pileca-krilca-1.jpg",
+            "description": "300g wings, sauce of your choice: sweet chili or BBQ, wedge fries",
+            "price": "540.00"
+        },
+        {
+            "title": "Chicken Strips",
+            "image": "/assets/images/menu/stripsi-1.jpg",
+            "description": "250g white meat, BBQ sauce, wedge fries",
+            "price": "590.00"
+        },
+        {
+            "title": "Pulled Pork",
+            "image": "/assets/images/menu/drpana-svinjetina-1.jpg",
+            "description": "170g marinated pork shoulder, 160g mashed potatoes, 50g horseradish sauce",
+            "price": "910.00"
+        },
+        {
+            "title": "Cvrčak Cevapi",
+            "image": "/assets/images/menu/cevapi-cvrcak.jpg",
+            "description": "10 cevapi 350g, 50g kajmak, 150g mundir potatoes",
+            "price": "560.00/960.00"
+        },
+        {
+            "title": "Cvrčak Pljeskavica",
+            "image": "/assets/images/menu/pljeskavica-cvrcak-1.jpg",
+            "description": "350g pljeskavica, 50g kajmak, 150g mundir potatoes",
+            "price": "560.00/960.00"
+        },
+        {
+            "title": "Grilled Trout with Vegetables (1kg)",
+            "image": "/assets/images/menu/pastrmka-1.jpg",
+            "description": "zucchini, peppers, mushrooms, tomatoes",
+            "price": "2600.00"
+        },
+        {
+            "title": "Beer-Battered Fish Filet (Fish & Chips)",
+            "image": "/assets/images/menu/filet-soma-1.jpg",
+            "description": "wedge fries, tartar sauce",
+            "price": "650.00"
+        }
+    ]
+}

@@ -24,7 +24,7 @@ const VideoSection = ({ title, subTitle, videoSource }) => {
                 <div className="video-background-content container h-100" data-aos='zoom-in' data-aos-duration="2000">
                     <div className="d-flex h-100 text-center align-items-center">
                         <div className="w-100 text-white">
-                            <h1 className="display-4 video-title">
+                            <h1 className="display-4 video-title text-uppercase">
                                 {title}
                             </h1>
                             <p className="lead mb-0 video-sub-title">{subTitle}</p>

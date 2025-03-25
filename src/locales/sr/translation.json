@@ -1,0 +1,49 @@
+{
+    "RestaurantName": "Brana",
+    "PlayroomName": "Okean Igraonica",
+    "Home": "Početna",
+    "HomePage": {
+        "subTitle": "Kafe | Restoran | Igraonica",
+        "sectionTitle": "Dobrodošli u Restoran <strong>Brana</strong>",
+        "sectionText1": "U srcu Ljiga, restoran <strong>Brana</strong> nudi vam nezaboravno gastronomsko iskustvo sa tradicionalnom srpskom kuhinjom, pripremljenom sa pažnjom i ljubavlju. Uživajte u svakom zalogaju, dok vaša deca istražuju i igraju se u našoj",
+        "playroomLink": "Okean Igraonici",
+        "sectionText2": "– sigurnom i kreativnom prostoru gde mališani mogu da se opuste, igraju i druže.",
+        "sectionText3": "Za one koji vole uživanje na svežem vazduhu, naša bašta je savršeno mesto za letnje trenutke opuštanja. Ovde možete uživati u omiljenim jelima i pićima dok upijate sunce i prijatnu atmosferu.",
+        "sectionText4": "Dok se opuštate uz naše specijalitete, vaše dete će biti u sigurnim rukama naših ljubaznih animatora, uživajući u modernim igrama i edukativnim sadržajem.",
+        "sectionText5": "Posetite nas i otkrijte zbog čega je <strong>Brana</strong> savršen izbor za celu porodicu – jer ovde, zabava, ukus i uživanje na otvorenom idu ruku pod ruku!",
+        "qualityText": "KVALITET NA PRVOM MESTU",
+        "specialtiesText": "Probajte Naše Specijalitete",
+        "checkMenuButton": "POGLEDAJTE JELOVNIK",
+        "bookTableText": "Rezervišite sto",
+        "reserveButton": "REZERVIŠI"
+    },
+    "Menu": "Meni",
+    "MenuV2": "Jelovnik",
+    "Drinks": "Karta Pića",
+    "Playroom": "Okean Igraonica",
+    "PlayroomPage": {
+        "subTitle": "Mesto gde zabava ne prestaje!",
+        "sectionText1": "U restoranu <strong>Brana</strong> ne brinemo samo o vašem uživanju u ukusnoj hrani, već i o zabavi za najmlađe. Naša <strong>Okean Igraonica</strong> &nbsp;je savršeno mesto za decu da se opuste, igraju, istražuju i uživaju u bezbednom okruženju, dok vi, roditelji, možete u potpunosti uživati u obroku.",
+        "sectionText2": "U okeanskoj atmosferi, sa modernim igrama i kreativnim sadržajem, deca mogu da se igraju, uče i druže sa vršnjacima, dok se vi opuštate uz našu ponudu specijaliteta. Naša igraonica je dizajnirana da pruži sigurnost i zabavu, tako da su svi mališani u rukama naših ljubaznih i obazrivih animatora.",
+        "sectionText3": "Dođite u <strong>Okean Igraonicu</strong> restorana <strong>Brana</strong> i stvorite nezaboravne trenutke za celu porodicu!",
+        "organizeBirthday": "Organizujte nezaboravan rođendan u",
+        "playroomLink": "Okean Igraonici",
+        "sectionText4": "U restoranu <strong>Brana</strong> vaša deca mogu da uživaju u najlepšim trenucima dok proslavljaju rođendane u našoj <strong>Okean Igraonici</strong>. Ovaj prostor je idealan za organizaciju rođendanskih zabava, jer pruža savršen ambijent za decu, ali i prostor za roditelje, koji mogu da uživaju u miru i opuštanju po izboru.",
+        "sectionText5": "Naša <strong>Okean Igraonica</strong> nudi različite pakete za organizaciju rođendana, prilagođene vašim potrebama. Bilo da se odlučite za <strong>All Inclusive</strong> ili <strong>Ultra All Inclusive</strong> pakete, u ponudi imamo bogatstvo opcija koje uključuju hranu, piće, zabavu i sve što je potrebno da proslava bude nezaboravna.",
+        "sectionText6": "Deca će uživati u raznovrsnim igrama, kreativnim aktivnostima, i vodićemo ih kroz razne igre pod nadzorom naših animatora, dok se roditelji mogu opustiti u našem restoranu i uživati u specijalitetima po njihovom izboru.",
+        "sectionText7": "Nudimo i različite opcije za <strong>hranu i piće</strong> – od klasičnih menija, preko zdravih užina, do luksuznih opcija koje uključuju pića i tortu po izboru. Sa našim <strong>Ultra All Inclusive</strong> paketom, svi gosti mogu uživati u vrhunskim obrocima i napicima tokom cele zabave, čineći rođendan savršenim za celu porodicu.",
+        "sectionText8": "Pogledajte našu galeriju i izaberite paket koji najviše odgovara vašim potrebama!"
+    },
+    "Contact": "Kontakt",
+    "ContactPage": {
+        "subTitle": "Informacije i rezervacije",
+        "branaTitle": "Restoran Brana",
+        "branaPhone": "Pozovite nas +381 65 867 9000",
+        "branaMail": "Imate pitanje? Pišite nam.",
+        "branaFacebook": "Pogledajte Facebook stranicu.",
+        "branaInstagram": "Zapratite nas na Instagramu.",
+        "okeanTitle": "Okean Igraonica",
+        "okeanPhone": "Pozovite nas +381 64 375 8641",
+        "okeanInstagram": "Zapratite nas na Instagramu."
+    }
+}
