@@ -36,6 +36,7 @@
     },
     "Contact": "Kontakt",
     "ContactPage": {
+        "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.8784362575907!2d20.223514395464324!3d44.211463708586045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4759e33490edc5e7%3A0x3b442e916ab64d37!2sKafe%20Restoran%20Brana!5e0!3m2!1ssr!2srs!4v1742051253397!5m2!1ssr!2srs",
         "subTitle": "Informacije i rezervacije",
         "branaTitle": "Restoran Brana",
         "branaPhone": "Pozovite nas +381 65 867 9000",

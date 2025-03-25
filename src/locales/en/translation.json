@@ -36,6 +36,7 @@
     },
     "Contact": "Contact",
     "ContactPage": {
+        "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2859.783033745924!2d20.224906300000004!3d44.211534799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4759e33490edc5e7%3A0x3b442e916ab64d37!2sKafe%20Restoran%20Brana!5e0!3m2!1sen!2srs!4v1742910432358!5m2!1sen!2srs",
         "subTitle": "Information and reservations",
         "branaTitle": "Restaurant Brana",
         "branaPhone": "Call us at +381 65 867 9000",
