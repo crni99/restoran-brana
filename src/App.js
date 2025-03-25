@@ -10,6 +10,7 @@ import MenuPage from './pages/Menu';
 import DrinksPage from './pages/Drinks';
 import PlayroomPage from './pages/Playroom';
 import ContactPage from './pages/Contact';
+import NotFoundPage from './components/NotFoundPage';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -46,6 +47,7 @@ function App() {
             <Route path="/karta-pica" element={<DrinksPage />} />
             <Route path="/igraonica" element={<PlayroomPage />} />
             <Route path="/kontakt" element={<ContactPage />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
           <Footer />
         </LanguageProvider>

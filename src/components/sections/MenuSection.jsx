@@ -24,6 +24,7 @@ const MenuSection = ({ title, items, sectionId, interval = 6000 }) => {
                                                 className="rounded mx-auto d-block menu-image"
                                                 style={{ objectFit: "contain", maxHeight: "500px" }}
                                                 alt={item.title}
+                                                loading="lazy"
                                             />
                                         </div>
                                         <div className="col-md-4 menu-text zoom-in-move-down-hover">

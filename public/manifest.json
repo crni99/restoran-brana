@@ -1,6 +1,6 @@
 {
-  "short_name": "Restoran Brana",
-  "name": "Restoran Brana",
+  "short_name": "BRANA",
+  "name": "BRANA | Kafe | Restoran | Igraonica",
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,5 +21,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#f0f0f0",
-  "background_color": "#f0f0f0"
+  "background_color": "#3F1717"
 }

@@ -46,5 +46,10 @@
         "okeanTitle": "Okean Igraonica",
         "okeanPhone": "Pozovite nas +381 64 375 8641",
         "okeanInstagram": "Zapratite nas na Instagramu."
+    },
+    "NotFoundPage": {
+        "title": "Stranica Nije Pronađena",
+        "subTitle": "Ups! Stranica koju tražite ne postoji.",
+        "returnToHomeButton": "Vratite se na početnu stranicu"
     }
 }

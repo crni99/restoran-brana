@@ -46,5 +46,10 @@
         "okeanTitle": "Ocean Playroom",
         "okeanPhone": "Call us at +381 64 375 8641",
         "okeanInstagram": "Follow us on Instagram."
+    },
+    "NotFoundPage": {
+        "title": "Page Not Found",
+        "subTitle": "Oops! The page you're looking for doesn't exist.",
+        "returnToHomeButton": "Go back to the homepage"
     }
 }
