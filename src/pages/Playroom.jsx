@@ -19,7 +19,7 @@ export default function PlayroomPage() {
             <div className="container d-flex justify-content-center align-items-center min-vh-75 mt-3 playroom-main-image-wrapper" data-aos="fade-up" data-aos-duration="2000">
                 <div className="row row-wrapper row-direction">
                     <div className="col-md-6 mt-2">
-                        <img src="/assets/images/playroom/Igraonica1.jpeg"
+                        <img src="/assets/images/playroom/Igraonica1.jpeg" loading="lazy"
                             className="w-100 rounded mb-3 playroom-main-image" alt="Igraonica1" />
                     </div>
                     <div className="col-md-6 playroom-text mt-2">
@@ -39,10 +39,10 @@ export default function PlayroomPage() {
             >
                 <div className="full-width-image position-relative"
                 >
-                    <img src="/assets/images/playroom/Igraonica2.jpg"
+                    <img src="/assets/images/playroom/Igraonica2.jpg" loading="lazy"
                         className="w-50 h-100 object-fit-cover" alt="Igraonica1"
                     />
-                    <img src="/assets/images/playroom/Igraonica3.jpg"
+                    <img src="/assets/images/playroom/Igraonica3.jpg" loading="lazy"
                         className="w-50 h-100 object-fit-cover" alt="Igraonica2"
                     />
                     <div className="overlay-2 position-absolute top-0 start-0 w-100 h-100">
@@ -93,6 +93,7 @@ export default function PlayroomPage() {
                                 src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket1.jpg"
                                 className="d-block w-100 rounded"
                                 alt="UltraAllInclusivePaket1"
+                                loading="lazy"
                             />
                         </Carousel.Item>
                         <Carousel.Item className="playroom-bundle-image">
@@ -100,6 +101,7 @@ export default function PlayroomPage() {
                                 src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket2.jpg"
                                 className="d-block w-100 rounded"
                                 alt="UltraAllInclusivePaket2"
+                                loading="lazy"
                             />
                         </Carousel.Item>
                         <Carousel.Item className="playroom-bundle-image">
@@ -107,6 +109,7 @@ export default function PlayroomPage() {
                                 src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket3.jpg"
                                 className="d-block w-100 rounded"
                                 alt="UltraAllInclusivePaket3"
+                                loading="lazy"
                             />
                         </Carousel.Item>
                         <Carousel.Item className="playroom-bundle-image">
@@ -114,6 +117,7 @@ export default function PlayroomPage() {
                                 src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket4.jpg"
                                 className="d-block w-100 rounded"
                                 alt="UltraAllInclusivePaket4"
+                                loading="lazy"
                             />
                         </Carousel.Item>
                         <Carousel.Item className="playroom-bundle-image">
@@ -121,6 +125,7 @@ export default function PlayroomPage() {
                                 src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket5.jpg"
                                 className="d-block w-100 rounded"
                                 alt="UltraAllInclusivePaket5"
+                                loading="lazy"
                             />
                         </Carousel.Item>
                         <Carousel.Item className="playroom-bundle-image">
@@ -128,6 +133,7 @@ export default function PlayroomPage() {
                                 src="/assets/images/playroom/ultra-all-inclusive/UltraAllInclusivePaket6.jpg"
                                 className="d-block w-100 rounded"
                                 alt="UltraAllInclusivePaket6"
+                                loading="lazy"
                             />
                         </Carousel.Item>
                         <Carousel.Item className="playroom-bundle-image">
@@ -135,6 +141,7 @@ export default function PlayroomPage() {
                                 src="/assets/images/playroom/all-inclusive/AllInclusivePaket1.jpg"
                                 className="d-block w-100 rounded"
                                 alt="AllInclusivePaket1"
+                                loading="lazy"
                             />
                         </Carousel.Item>
                     </Carousel>

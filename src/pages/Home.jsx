@@ -22,7 +22,9 @@ export default function HomePage() {
                 <div className="row">
                     <div className="col-md-6">
                         <img src="/assets/images/home/Brana4.jpg"
-                            className="w-100 rounded mb-4 home-main-image" alt="Unutrašnjost restorana sa Deda Mrazom koji drži znak dobrodošlice" />
+                            loading="lazy"
+                            className="w-100 rounded mb-4 home-main-image"
+                            alt="Unutrašnjost restorana sa Deda Mrazom koji drži znak dobrodošlice" />
                     </div>
                     <div className="row-wrapper col-md-6 home-text playroom-text">
                         <p className="fs-4 home-section-title text-center">
@@ -54,10 +56,10 @@ export default function HomePage() {
             </div>
 
             <div className="full-width-image position-relative home-full-width-menu-wrapper mt-4" data-aos="zoom-in" data-aos-duration="2000">
-                <img src="/assets/images/menu/mix-kobasica-2.jpg"
+                <img src="/assets/images/menu/mix-kobasica-2.jpg" loading="lazy"
                     className="w-50 h-100 object-fit-cover" alt="Mix kobasica na dasci sa krompirom, prilozima i hlebom"
                 />
-                <img src="/assets/images/menu/cevapi-cvrcak.jpg"
+                <img src="/assets/images/menu/cevapi-cvrcak.jpg" loading="lazy"
                     className="w-50 h-100 object-fit-cover" alt="Cvrčak ćevapi sa kajmakom i krompirom"
                 />
                 <div className="overlay position-absolute top-0 start-0 w-100 h-100">
@@ -77,7 +79,7 @@ export default function HomePage() {
                     <div className="col-md-6 zoom-in-hover home-menu-playroom-1">
                         <Link to="/jelovnik">
                             <div className="full-width-image position-relative">
-                                <img src="/assets/images/menu/mix-kobasica-2.jpg"
+                                <img src="/assets/images/menu/mix-kobasica-2.jpg" loading="lazy"
                                     className="w-100 h-100 object-fit-cover rounded " alt="Mix kobasica na dasci sa krompirom, prilozima i hlebom"
                                 />
                                 <div className="overlay-2 position-absolute top-0 start-0 w-100 h-100 rounded">
@@ -91,7 +93,7 @@ export default function HomePage() {
                     <div className="col-md-6 zoom-in-hover home-menu-playroom-2">
                         <Link to="/karta-pica">
                             <div className="full-width-image position-relative">
-                                <img src="/assets/images/home/Brana7.jpg"
+                                <img src="/assets/images/home/Brana7.jpg" loading="lazy"
                                     className="w-100 h-100 object-fit-cover rounded" alt="Krigla sa pivom - Birra Moretti"
                                 />
                                 <div className="overlay-2 position-absolute top-0 start-0 w-100 h-100 rounded ">
@@ -115,7 +117,7 @@ export default function HomePage() {
                 >
                     <div className="position-absolute top-50 start-50 translate-middle text-center text-white"
                         data-aos="zoom-in" data-aos-duration="3000">
-                        <img src='/logo512.avif' className='logo-rounded' alt='Brana Logo' />
+                        <img src='/logo512.avif' className='logo-rounded' alt='Brana Logo' loading="lazy" />
                         <h2 className='mt-4 mb-5 home-reserve-title'>{t('HomePage.bookTableText')}</h2>
                         <Link to="/kontakt#2" className="btn custom-button-inverted fw-bold p-3 text-decoration-none">
                             {t('HomePage.reserveButton')}

@@ -95,7 +95,8 @@ export default function ContactPage() {
                         </div>
                     </div>
                     <div className="col-md-8 d-flex justify-content-end mt-3 zoom-in-move-left-hover">
-                        <img src="/assets/images/slikaUnutra.jpg" className="rounded w-100 w-md-75 h-auto contact-image mb-3" alt="Slika Unutra" />
+                        <img src="/assets/images/slikaUnutra.jpg" loading="lazy"
+                            className="rounded w-100 w-md-75 h-auto contact-image mb-3" alt="Slika Unutra" />
                     </div>
                 </div>
             </div>
