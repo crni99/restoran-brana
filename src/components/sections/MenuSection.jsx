@@ -18,7 +18,7 @@ const MenuSection = ({ title, items, sectionId, interval = 6000 }) => {
                             <Carousel.Item key={item.id || index}>
                                 <div className="container d-flex justify-content-center align-items-center">
                                     <div className="row w-100">
-                                        <div className="col-md-8">
+                                        <div className="col-md-8 image-menu-placeholder">
                                             <img
                                                 src={imageUrl}
                                                 className="rounded mx-auto d-block menu-image"

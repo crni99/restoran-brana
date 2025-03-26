@@ -385,6 +385,10 @@ footer a:active {
     max-height: 200px !important;
   }
 
+  .image-menu-placeholder {
+    min-height: 200px;
+  }
+
   .menu-text {
     margin-top: 2rem !important;
     margin-bottom: -1rem !important;
@@ -549,6 +553,10 @@ footer a:active {
 @media (min-width: 400px) and (max-width: 575.98px) {
   .menu-image {
     max-height: 280px !important;
+  }
+
+  .image-menu-placeholder {
+    min-height: 280px;
   }
 
   .menu-text {
@@ -728,6 +736,10 @@ footer a:active {
 @media (min-width: 576px) and (max-width: 767.98px) {
   .menu-image {
     max-height: 400px !important;
+  }
+
+  .image-menu-placeholder {
+    min-height: 400px;
   }
 
   .menu-text {
@@ -913,6 +925,10 @@ footer a:active {
     max-height: 350px !important;
   }
 
+  .image-menu-placeholder {
+    min-height: 350px;
+  }
+
   .menu-text {
     margin-left: -1.5rem;
   }
@@ -1017,6 +1033,7 @@ footer a:active {
   .carousel-indicators {
     transform: translateX(-3.5%) !important;
   }
+
 }
 
 /* Large Screens (≥992px) */
@@ -1105,6 +1122,10 @@ footer a:active {
     transform: translateX(-7%) !important;
   }
 
+  .image-menu-placeholder {
+    min-height: 500px;
+  }
+
 }
 
 /* Extra Large Screens (≥1200px) */
@@ -1130,13 +1151,28 @@ footer a:active {
     margin-bottom: 1rem !important;
   }
 
+  .image-menu-placeholder {
+    min-height: 500px;
+  }
+
 }
 
 /* Extra Extra Large Screens (≥1400px) */
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+  .image-menu-placeholder {
+    min-height: 500px;
+  }
+}
 
 /* Turn Off Hover, Focus, and Active Effects For Touchscreen Devices */
 @media (hover: none) and (pointer: coarse) {
+
+  /* Prevent any hover effect or transform if touch devices are used */
+  .zoom-in-hover,
+  .zoom-in-move-right-hover,
+  .zoom-in-move-left-hover,
+  .zoom-in-move-down-hover,
+
   .zoom-in-hover:hover,
   .zoom-in-move-right-hover:hover,
   .zoom-in-move-left-hover:hover,
@@ -1148,7 +1184,7 @@ footer a:active {
   .nav-link:hover,
   .dropdown-item:hover,
   .accordion-button:hover,
-  
+
   /* Disable focus for touchscreen devices */
   .zoom-in-hover:focus,
   .zoom-in-move-right-hover:focus,
