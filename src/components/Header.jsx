@@ -4,13 +4,16 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container, NavDropdown, Button } from 'react-bootstrap';
 import logo from "../assets/logo.svg";
 import { useLanguage } from '../context/LanguageContext';
+import flagSr from "../assets/lang-flags/sr.svg";
+import flagEn from "../assets/lang-flags/en.svg";
 
 export default function Header() {
+
     const { t } = useTranslation();
     const { language, changeLanguage } = useLanguage();
 
-    const handleLanguageChange = (e) => {
-        changeLanguage(e.target.value);
+    const handleLanguageChange = (newLanguage) => {
+        changeLanguage(newLanguage);
     };
 
     return (
@@ -36,10 +39,10 @@ export default function Header() {
                             </Nav.Item>
                             <NavDropdown title={t("Menu")} id="navbarDropdownMenu" drop="down">
                                 <NavDropdown.Item as={Link} to="/jelovnik" className="nav-link dropdown-item-link">
-                                    &nbsp;{t("MenuV2")}
+                                    &nbsp;{t("MenuV2")}&nbsp;
                                 </NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/karta-pica" className="nav-link dropdown-item-link">
-                                    &nbsp;{t("Drinks")}
+                                    &nbsp;{t("Drinks")}&nbsp;
                                 </NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Item>
@@ -48,14 +51,21 @@ export default function Header() {
                             <Nav.Item>
                                 <Link to="/kontakt" className="nav-link">{t("Contact")}</Link>
                             </Nav.Item>
-                            <NavDropdown title={language === 'sr' ? 'Jezik' : 'Language'} id="navbarDropdownLanguage" drop="down">
-                                <NavDropdown.Item as={Button} value="sr" onClick={handleLanguageChange} className="nav-link dropdown-item-link">
-                                    &nbsp;Srpski
-                                </NavDropdown.Item>
-                                <NavDropdown.Item as={Button} value="en" onClick={handleLanguageChange} className="nav-link dropdown-item-link">
-                                    &nbsp;English
-                                </NavDropdown.Item>
-                            </NavDropdown>
+                            <Nav.Item>
+                                <Button
+                                    variant="link"
+                                    onClick={() => handleLanguageChange(language === 'sr' ? 'en' : 'sr')}
+                                    className="nav-link">
+                                    &nbsp;
+                                    <img
+                                        src={language === 'sr' ? flagEn : flagSr}
+                                        alt="Language Flag"
+                                        width="20"
+                                        height="14"
+                                    />
+                                    &nbsp;
+                                </Button>
+                            </Nav.Item>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -531,6 +531,18 @@ footer a:active {
   .carousel-indicators {
     transform: translateX(0%) !important;
   }
+
+  .card-title {
+    font-size: 1.2rem !important;
+  }
+
+  .card-text {
+    font-size: 0.8rem !important;
+  }
+
+  .card-button {
+    font-size: 0.8rem !important;
+  }
 }
 
 /* Extra Small (Mobile) */
@@ -697,6 +709,18 @@ footer a:active {
 
   .carousel-indicators {
     transform: translateX(0%) !important;
+  }
+
+  .card-title {
+    font-size: 1.3rem !important;
+  }
+
+  .card-text {
+    font-size: 0.9rem !important;
+  }
+
+  .card-button {
+    font-size: 0.9rem !important;
   }
 }
 
@@ -1112,7 +1136,7 @@ footer a:active {
 @media (min-width: 1400px) {}
 
 /* Turn Off Hover, Focus, and Active Effects For Touchscreen Devices */
-@media (hover: none) {
+@media (hover: none) and (pointer: coarse) {
   .zoom-in-hover:hover,
   .zoom-in-move-right-hover:hover,
   .zoom-in-move-left-hover:hover,
@@ -1124,7 +1148,8 @@ footer a:active {
   .nav-link:hover,
   .dropdown-item:hover,
   .accordion-button:hover,
-
+  
+  /* Disable focus for touchscreen devices */
   .zoom-in-hover:focus,
   .zoom-in-move-right-hover:focus,
   .zoom-in-move-left-hover:focus,
@@ -1137,6 +1162,13 @@ footer a:active {
   .dropdown-item:focus,
   .accordion-button:focus,
 
+  /* Disable focus-visible for touchscreen devices */
+  .zoom-in-hover:focus-visible,
+  .zoom-in-move-right-hover:focus-visible,
+  .zoom-in-move-left-hover:focus-visible,
+  .zoom-in-move-down-hover:focus-visible,
+
+  /* Disable active state for touchscreen devices */
   .zoom-in-hover:active,
   .zoom-in-move-right-hover:active,
   .zoom-in-move-left-hover:active,
@@ -1148,9 +1180,9 @@ footer a:active {
   .nav-link:active,
   .dropdown-item:active,
   .accordion-button:active {
-    transform: none;
-    color: inherit;
-    background-color: inherit;
+    transform: none !important;
+    color: inherit !important;
+    background-color: inherit !important;
   }
 }
 
@@ -1322,6 +1354,11 @@ footer a:active {
   display: none;
 }
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-control-next,
+.carousel-control-prev {
   color: var(--white) !important;
+}
+
+.dropdown-menu {
+  --bs-dropdown-min-width: auto !important;
 }
